@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2099196C0080992C71A9C94 /* Pods_FreeMacroTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */; };
+		BE6DF68F9DDB1E82B790A282 /* Pods_FreeMacroTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */; };
+		DFC732D640A838AD72548895 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */; };
+		E35F1ADB25337B6E008E31C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */; };
+		E35F1ADD25337B6E008E31C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */; };
+		E35F1ADF25337B6E008E31C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADE25337B6E008E31C8 /* ViewController.swift */; };
+		E35F1AE225337B6E008E31C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35F1AE025337B6E008E31C8 /* Main.storyboard */; };
+		E35F1AE425337B6F008E31C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35F1AE325337B6F008E31C8 /* Assets.xcassets */; };
+		E35F1AE725337B6F008E31C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35F1AE525337B6F008E31C8 /* LaunchScreen.storyboard */; };
+		E35F1AF225337B6F008E31C8 /* FreeMacroTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1AF125337B6F008E31C8 /* FreeMacroTrackerTests.swift */; };
+		E35F1AFD25337B6F008E31C8 /* FreeMacroTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */; };
+		E35F1B1725338DB5008E31C8 /* FMTPlatformInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */; };
+		E35F1B1C25338E91008E31C8 /* FMTIOSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E35F1AEE25337B6F008E31C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35F1ACF25337B6E008E31C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35F1AD625337B6E008E31C8;
+			remoteInfo = FreeMacroTracker;
+		};
+		E35F1AF925337B6F008E31C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35F1ACF25337B6E008E31C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E35F1AD625337B6E008E31C8;
+			remoteInfo = FreeMacroTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
+		CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMacroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E35F1ADE25337B6E008E31C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E35F1AE125337B6E008E31C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E35F1AE325337B6F008E31C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E35F1AE625337B6F008E31C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E35F1AE825337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMacroTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AF125337B6F008E31C8 /* FreeMacroTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMacroTrackerTests.swift; sourceTree = "<group>"; };
+		E35F1AF325337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMacroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMacroTrackerUITests.swift; sourceTree = "<group>"; };
+		E35F1AFE25337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTPlatformInterface.swift; sourceTree = "<group>"; };
+		E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTIOSDelegate.swift; sourceTree = "<group>"; };
+		EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E35F1AD425337B6E008E31C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2099196C0080992C71A9C94 /* Pods_FreeMacroTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AEA25337B6F008E31C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6DF68F9DDB1E82B790A282 /* Pods_FreeMacroTrackerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AF525337B6F008E31C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC732D640A838AD72548895 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		106E09255277844413260E2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */,
+				7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */,
+				062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */,
+				4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */,
+				CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */,
+				EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BEAE6C281056EA4DB3976AB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */,
+				D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */,
+				610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35F1ACE25337B6E008E31C8 = {
+			isa = PBXGroup;
+			children = (
+				E35F1AD925337B6E008E31C8 /* FreeMacroTracker */,
+				E35F1AF025337B6F008E31C8 /* FreeMacroTrackerTests */,
+				E35F1AFB25337B6F008E31C8 /* FreeMacroTrackerUITests */,
+				E35F1AD825337B6E008E31C8 /* Products */,
+				106E09255277844413260E2B /* Pods */,
+				BEAE6C281056EA4DB3976AB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E35F1AD825337B6E008E31C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */,
+				E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */,
+				E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E35F1AD925337B6E008E31C8 /* FreeMacroTracker */ = {
+			isa = PBXGroup;
+			children = (
+				E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */,
+				E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */,
+				E35F1ADE25337B6E008E31C8 /* ViewController.swift */,
+				E35F1AE025337B6E008E31C8 /* Main.storyboard */,
+				E35F1AE325337B6F008E31C8 /* Assets.xcassets */,
+				E35F1AE525337B6F008E31C8 /* LaunchScreen.storyboard */,
+				E35F1AE825337B6F008E31C8 /* Info.plist */,
+				E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */,
+				E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */,
+			);
+			path = FreeMacroTracker;
+			sourceTree = "<group>";
+		};
+		E35F1AF025337B6F008E31C8 /* FreeMacroTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E35F1AF125337B6F008E31C8 /* FreeMacroTrackerTests.swift */,
+				E35F1AF325337B6F008E31C8 /* Info.plist */,
+			);
+			path = FreeMacroTrackerTests;
+			sourceTree = "<group>";
+		};
+		E35F1AFB25337B6F008E31C8 /* FreeMacroTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */,
+				E35F1AFE25337B6F008E31C8 /* Info.plist */,
+			);
+			path = FreeMacroTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E35F1AD625337B6E008E31C8 /* FreeMacroTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTracker" */;
+			buildPhases = (
+				2CEAB2B127DC6CA7B8243E6D /* [CP] Check Pods Manifest.lock */,
+				E35F1AD325337B6E008E31C8 /* Sources */,
+				E35F1AD425337B6E008E31C8 /* Frameworks */,
+				E35F1AD525337B6E008E31C8 /* Resources */,
+				F053AFE21473B632646C8F51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeMacroTracker;
+			productName = FreeMacroTracker;
+			productReference = E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E35F1AEC25337B6F008E31C8 /* FreeMacroTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerTests" */;
+			buildPhases = (
+				B0B3D93DBB2C7BDAF9392FAC /* [CP] Check Pods Manifest.lock */,
+				E35F1AE925337B6F008E31C8 /* Sources */,
+				E35F1AEA25337B6F008E31C8 /* Frameworks */,
+				E35F1AEB25337B6F008E31C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35F1AEF25337B6F008E31C8 /* PBXTargetDependency */,
+			);
+			name = FreeMacroTrackerTests;
+			productName = FreeMacroTrackerTests;
+			productReference = E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E35F1AF725337B6F008E31C8 /* FreeMacroTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerUITests" */;
+			buildPhases = (
+				C05EEF5BD530D63F143017EC /* [CP] Check Pods Manifest.lock */,
+				E35F1AF425337B6F008E31C8 /* Sources */,
+				E35F1AF525337B6F008E31C8 /* Frameworks */,
+				E35F1AF625337B6F008E31C8 /* Resources */,
+				3D24A13A7EE3C2E8DE7D1F94 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E35F1AFA25337B6F008E31C8 /* PBXTargetDependency */,
+			);
+			name = FreeMacroTrackerUITests;
+			productName = FreeMacroTrackerUITests;
+			productReference = E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E35F1ACF25337B6E008E31C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E35F1AD625337B6E008E31C8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					E35F1AEC25337B6F008E31C8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = E35F1AD625337B6E008E31C8;
+					};
+					E35F1AF725337B6F008E31C8 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = E35F1AD625337B6E008E31C8;
+					};
+				};
+			};
+			buildConfigurationList = E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "FreeMacroTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E35F1ACE25337B6E008E31C8;
+			productRefGroup = E35F1AD825337B6E008E31C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E35F1AD625337B6E008E31C8 /* FreeMacroTracker */,
+				E35F1AEC25337B6F008E31C8 /* FreeMacroTrackerTests */,
+				E35F1AF725337B6F008E31C8 /* FreeMacroTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E35F1AD525337B6E008E31C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35F1AE725337B6F008E31C8 /* LaunchScreen.storyboard in Resources */,
+				E35F1AE425337B6F008E31C8 /* Assets.xcassets in Resources */,
+				E35F1AE225337B6E008E31C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AEB25337B6F008E31C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AF625337B6F008E31C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CEAB2B127DC6CA7B8243E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D24A13A7EE3C2E8DE7D1F94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B3D93DBB2C7BDAF9392FAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05EEF5BD530D63F143017EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTracker-FreeMacroTrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F053AFE21473B632646C8F51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E35F1AD325337B6E008E31C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35F1ADF25337B6E008E31C8 /* ViewController.swift in Sources */,
+				E35F1ADB25337B6E008E31C8 /* AppDelegate.swift in Sources */,
+				E35F1B1725338DB5008E31C8 /* FMTPlatformInterface.swift in Sources */,
+				E35F1ADD25337B6E008E31C8 /* SceneDelegate.swift in Sources */,
+				E35F1B1C25338E91008E31C8 /* FMTIOSDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AE925337B6F008E31C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35F1AF225337B6F008E31C8 /* FreeMacroTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E35F1AF425337B6F008E31C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35F1AFD25337B6F008E31C8 /* FreeMacroTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E35F1AEF25337B6F008E31C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35F1AD625337B6E008E31C8 /* FreeMacroTracker */;
+			targetProxy = E35F1AEE25337B6F008E31C8 /* PBXContainerItemProxy */;
+		};
+		E35F1AFA25337B6F008E31C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E35F1AD625337B6E008E31C8 /* FreeMacroTracker */;
+			targetProxy = E35F1AF925337B6F008E31C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E35F1AE025337B6E008E31C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35F1AE125337B6E008E31C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E35F1AE525337B6F008E31C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E35F1AE625337B6F008E31C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E35F1AFF25337B6F008E31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E35F1B0025337B6F008E31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E35F1B0225337B6F008E31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E35F1B0325337B6F008E31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E35F1B0525337B6F008E31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.FreeMacroTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMacroTracker.app/FreeMacroTracker";
+			};
+			name = Debug;
+		};
+		E35F1B0625337B6F008E31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTrackerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.FreeMacroTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMacroTracker.app/FreeMacroTracker";
+			};
+			name = Release;
+		};
+		E35F1B0825337B6F008E31C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.FreeMacroTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeMacroTracker;
+			};
+			name = Debug;
+		};
+		E35F1B0925337B6F008E31C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = FreeMacroTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.FreeMacroTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FreeMacroTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "FreeMacroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35F1AFF25337B6F008E31C8 /* Debug */,
+				E35F1B0025337B6F008E31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35F1B0225337B6F008E31C8 /* Debug */,
+				E35F1B0325337B6F008E31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35F1B0525337B6F008E31C8 /* Debug */,
+				E35F1B0625337B6F008E31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E35F1B0825337B6F008E31C8 /* Debug */,
+				E35F1B0925337B6F008E31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E35F1ACF25337B6E008E31C8 /* Project object */;
+}
