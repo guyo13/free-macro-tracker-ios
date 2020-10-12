@@ -21,7 +21,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     var initialNavRequest: WKNavigation?
     
     override var prefersStatusBarHidden: Bool {
-        return true
+        return false
     }
     
     // Gets notified when safe area changes and reapplies the offset required
@@ -60,9 +60,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
 //        initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
         // Default Cache policy for production
         initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!))
-        showSpinner(onView: self.view)
-        let greenBgColor = UIColor(red: 42/255, green: 118/255, blue: 59/255, alpha: 1)
-        self.view.backgroundColor = greenBgColor
+        showSpinner()
     }
     
     override func loadView() {
@@ -72,7 +70,6 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         if navigation == self.initialNavRequest {
             print("Initial navigation request finished")
-            removeSpinner()
         }
     }
     
@@ -160,7 +157,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     
     func FMTFinishedLoading() {
         print("FMTFinishedLoading called")
-//        self.view.addSubview(webView)
+        removeSpinner()
     }
     
     func importData(fileUrl: URL) {
@@ -202,7 +199,6 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
             // TODO - localize
             let alert = UIAlertController(title: "Are you sure?", message: "Importing is irreversible and might replace ALL of your existing data.\nContinue?", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "YES", style: .default) { (action: UIAlertAction) in
-                //TODO - do the export
                 self.importData(fileUrl: urls[0])
             })
             alert.addAction(UIAlertAction(title: "NO", style: .default) { (action: UIAlertAction) in
@@ -214,20 +210,16 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
         }
     }
 
-    func showSpinner(onView : UIView) {
-            let spinnerView = UIView.init(frame: onView.bounds)
-//            spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
-            let ai = UIActivityIndicatorView.init(style: .large)
-            ai.startAnimating()
-            ai.center = spinnerView.center
-            
-            DispatchQueue.main.async {
-                spinnerView.addSubview(ai)
-                onView.addSubview(spinnerView)
-            }
-            
-            vSpinner = spinnerView
-        }
+    func showSpinner() {
+        let spinnerView = UIView.init(frame: self.view.frame)
+        spinnerView.backgroundColor = UIColor.init(red: 54/255, green: 157/255, blue: 77/255, alpha: 1)
+        let ai = UIActivityIndicatorView.init(style: .large)
+        ai.startAnimating()
+        ai.center = self.view.center
+        spinnerView.addSubview(ai)
+        self.view.addSubview(spinnerView)
+        vSpinner = spinnerView
+    }
         
         func removeSpinner() {
             DispatchQueue.main.async {
