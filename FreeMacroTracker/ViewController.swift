@@ -11,12 +11,14 @@ import MobileCoreServices
 import UniformTypeIdentifiers
 import MaterialComponents.MaterialSnackbar
 
-class ViewController: UIViewController, WKUIDelegate, FMTIOSDelegate, UIDocumentPickerDelegate {
+class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTIOSDelegate, UIDocumentPickerDelegate {
     
     @IBOutlet var webView: WKWebView!
     let FMT_URL = "https://app.freemacrotracker.com"
     var snackBarOffset: UIView?
+    var vSpinner : UIView?
     let utilQueue = DispatchQueue(label: "com.freemacrotracker.app.util", qos: .utility)
+    var initialNavRequest: WKNavigation?
     
     override var prefersStatusBarHidden: Bool {
         return true
@@ -44,12 +46,9 @@ class ViewController: UIViewController, WKUIDelegate, FMTIOSDelegate, UIDocument
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        webView!.frame = CGRect(x: 0,
-//                                y: 0,
-//                                width: self.view.safeAreaInsets.right - self.view.safeAreaInsets.left,
-//                                height: self.view.safeAreaInsets.top - self.view.safeAreaInsets.bottom)
         let platformInterface = FMTPlatformInterface(withDelegate: self)
         webView!.uiDelegate = self
+        webView!.navigationDelegate = self
         webView!.configuration.userContentController.add(platformInterface, name:"FMTShowAlert")
         webView!.configuration.userContentController.add(platformInterface, name:"FMTShowAlertBar")
         webView!.configuration.userContentController.add(platformInterface, name:"FMTExportData")
@@ -57,36 +56,24 @@ class ViewController: UIViewController, WKUIDelegate, FMTIOSDelegate, UIDocument
         webView!.configuration.userContentController.add(platformInterface, name:"FMTShowPrompt")
         webView!.configuration.userContentController.add(platformInterface, name:"FMTFinishedLoading")
         webView!.configuration.ignoresViewportScaleLimits = false
-        webView!.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
-//        let javascriptFunction = "var style = document.createElement(`style`); style.innerHTML = `input,select:focus, textarea {font-size: 16px !important;}`; document.head.appendChild(style);"
-//        DispatchQueue.main.async(execute: {
-//            self.webView.evaluateJavaScript(javascriptFunction) { (result, error) in
-//                guard error == nil else {
-//                    return
-//                }
-//            }
-//        })
+        // Cache policy for developing
+//        initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
+        // Default Cache policy for production
+        initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!))
+        showSpinner(onView: self.view)
+        let greenBgColor = UIColor(red: 42/255, green: 118/255, blue: 59/255, alpha: 1)
+        self.view.backgroundColor = greenBgColor
     }
     
     override func loadView() {
-//        guard let window = self.w else {
-//            return
-//        }
-//        let frame = CGRect(x: 0,
-//                           y: 0,
-//                           width: window.safeAreaInsets.right - window.safeAreaInsets.left,
-//                           height: window.safeAreaInsets.top - window.safeAreaInsets.bottom)
-//        let webConfiguration = WKWebViewConfiguration()
-//        let userContentController = WKUserContentController()
         super.loadView()
-        
-//        webView = WKWebView(frame: allScreen, configuration: webConfiguration)
-//        webView!.backgroundColor = greenBgColor
-        let greenBgColor = UIColor(red: 42/255, green: 118/255, blue: 59/255, alpha: 1)
-        let allScreen = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.size.height)
-        let rect = UIView.init(frame: allScreen)
-        rect.backgroundColor = greenBgColor
-//        view = rect
+    }
+    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        if navigation == self.initialNavRequest {
+            print("Initial navigation request finished")
+            removeSpinner()
+        }
     }
     
     @objc func alertClose(_ gesture: UITapGestureRecognizer) {
@@ -227,5 +214,27 @@ class ViewController: UIViewController, WKUIDelegate, FMTIOSDelegate, UIDocument
         }
     }
 
+    func showSpinner(onView : UIView) {
+            let spinnerView = UIView.init(frame: onView.bounds)
+//            spinnerView.backgroundColor = UIColor.init(red: 0.5, green: 0.5, blue: 0.5, alpha: 0.5)
+            let ai = UIActivityIndicatorView.init(style: .large)
+            ai.startAnimating()
+            ai.center = spinnerView.center
+            
+            DispatchQueue.main.async {
+                spinnerView.addSubview(ai)
+                onView.addSubview(spinnerView)
+            }
+            
+            vSpinner = spinnerView
+        }
+        
+        func removeSpinner() {
+            DispatchQueue.main.async {
+                self.vSpinner?.removeFromSuperview()
+                self.vSpinner = nil
+            }
+        }
+    
 }
 
