@@ -19,6 +19,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     var vSpinner : UIView?
     let utilQueue = DispatchQueue(label: "com.freemacrotracker.app.util", qos: .utility)
     var initialNavRequest: WKNavigation?
+    let SNACKBAR_DURATION_SHORT = TimeInterval(1.5)
     
     override var prefersStatusBarHidden: Bool {
         return false
@@ -101,6 +102,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     func FMTShowAlertBar(msg: String) {
         let message = MDCSnackbarMessage()
         message.text = msg
+        message.duration = SNACKBAR_DURATION_SHORT
         if self.snackBarOffset != nil {
             MDCSnackbarManager.default.setPresentationHostView(self.snackBarOffset)
         }
