@@ -33,7 +33,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
+    func applicationWillEnterForeground(_ application: UIApplication) {
+        guard let viewController = application.windows.first?.rootViewController as? ViewController else {
+            print("Error: couldn't get a hold of rootViewController!")
+            return
+        }
+        viewController.updateToday()
+    }
 }
 

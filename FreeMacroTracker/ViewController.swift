@@ -23,6 +23,8 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     let utilQueue = DispatchQueue(label: "com.freemacrotracker.app.util", qos: .utility)
     var initialNavRequest: WKNavigation?
     let SNACKBAR_DURATION_SHORT = TimeInterval(1.5)
+    var fmtAppLoaded = false
+    let dateFormatter = DateFormatter()
     
     override var prefersStatusBarHidden: Bool {
         return false
@@ -50,6 +52,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
         let platformInterface = FMTPlatformInterface(withDelegate: self)
         webView!.uiDelegate = self
         webView!.navigationDelegate = self
@@ -162,6 +165,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     
     func FMTFinishedLoading() {
         print("FMTFinishedLoading called")
+        self.fmtAppLoaded = true
         removeSpinner()
     }
     
@@ -226,12 +230,58 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
         vSpinner = spinnerView
     }
         
-        func removeSpinner() {
-            DispatchQueue.main.async {
-                self.vSpinner?.removeFromSuperview()
-                self.vSpinner = nil
+    func removeSpinner() {
+        DispatchQueue.main.async {
+            self.vSpinner?.removeFromSuperview()
+            self.vSpinner = nil
+        }
+    }
+    
+    func updateToday() {
+        if (self.fmtAppLoaded) {
+            // Check if App state today value is same day as now
+            // If not then update it
+            self.webView.evaluateJavaScript("( () => {" +
+                "const today = fmtAppInstance.today;" +
+                "return `${today.getFullYear()}-${today.getMonth() + 1 }-${today.getDate()}`;" +
+                "} )();") { (result: Any?, err: Error?) in
+                self.utilQueue.async {
+                    var shouldUpdate = false
+                    if err != nil {
+                        print("Error getting app's date")
+                        return
+                    }
+                    else if let dateString = result as? String {
+                        let appStateToday = self.dateFormatter.date(from: dateString)
+                        if let appStateTodayString =  self.dateFormatter.string(for: appStateToday) {
+                            let now = Date()
+                            let nowString = self.dateFormatter.string(from: now)
+                            print("Comparing \(nowString) with \(appStateTodayString)" )
+                            shouldUpdate = nowString != appStateTodayString
+                        } else {
+                            shouldUpdate = true
+                        }
+                        if (shouldUpdate) {
+                            DispatchQueue.main.async {
+                                print("Updating Today")
+                                self.webView.evaluateJavaScript("( () => { FMTOverviewLoadCurrentDay(); } )();") {
+                                    res, err in
+                                    if err != nil {
+                                        print("Failed updating today!")
+                                    } else {
+                                        print("Updated today successfully!")
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else {
+                        print("Got null date string")
+                        return
+                    }
+                }
             }
         }
-    
+    }
 }
 

@@ -39,11 +39,11 @@ class FMTPlatformInterface: NSObject, WKScriptMessageHandler {
             delegate.FMTShowAlertBar(msg: msg)
         case "FMTExportData":
             guard let dict = message.body as? [String: String],
-                  let data = dict["data"],
-                  let filename = dict["filename"] ?? "" else {
+                  let data = dict["data"] else {
                 print("FMTExportData missing arguments")
                 return
             }
+            let filename = dict["filename"] ?? ""
             delegate.FMTExportData(data: data, filename: filename)
         case "FMTImportData":
             delegate.FMTImportData()
