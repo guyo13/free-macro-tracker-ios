@@ -30,9 +30,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
         return false
     }
     
-    // Gets notified when safe area changes and reapplies the offset required
-    // for displaying the snackbar in the correct height
-    override func viewSafeAreaInsetsDidChange() {
+    func createTransparentNavbarOffset() -> UIView {
         let transparentNavbarOffset = UIView.init(
             frame: CGRect(x: 0,
                           y: self.view.bounds.height -
@@ -43,6 +41,13 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
             )
         )
         transparentNavbarOffset.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 0)
+        return transparentNavbarOffset
+    }
+
+    // Gets notified when safe area changes and reapplies the offset required
+    // for displaying the snackbar in the correct height
+    override func viewSafeAreaInsetsDidChange() {
+        let transparentNavbarOffset = self.createTransparentNavbarOffset()
         if self.snackBarOffset != nil {
             self.snackBarOffset?.removeFromSuperview()
         }
@@ -143,6 +148,10 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
                 try data.write(to: fileURL, atomically: true, encoding: .utf8)
                 let activityController = UIActivityViewController(activityItems: [fileURL], applicationActivities: nil)
                 DispatchQueue.main.async {
+                    if let popoverController = activityController.popoverPresentationController {
+                        popoverController.sourceView = self.snackBarOffset
+                        popoverController.sourceRect = self.snackBarOffset!.bounds
+                    }
                     self.present(activityController, animated: true, completion: nil)
                 }
             } catch {
