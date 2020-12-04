@@ -47,7 +47,7 @@
 		7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
 		CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMacroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AD725337B6E008E31C8 /* OpenMacroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenMacroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E35F1ADE25337B6E008E31C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,10 +55,10 @@
 		E35F1AE325337B6F008E31C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35F1AE625337B6F008E31C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E35F1AE825337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMacroTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AED25337B6F008E31C8 /* OpenMacroTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMacroTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35F1AF125337B6F008E31C8 /* FreeMacroTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMacroTrackerTests.swift; sourceTree = "<group>"; };
 		E35F1AF325337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMacroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35F1AF825337B6F008E31C8 /* OpenMacroTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenMacroTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMacroTrackerUITests.swift; sourceTree = "<group>"; };
 		E35F1AFE25337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTPlatformInterface.swift; sourceTree = "<group>"; };
@@ -133,9 +133,9 @@
 		E35F1AD825337B6E008E31C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */,
-				E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */,
-				E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */,
+				E35F1AD725337B6E008E31C8 /* OpenMacroTracker.app */,
+				E35F1AED25337B6F008E31C8 /* OpenMacroTrackerTests.xctest */,
+				E35F1AF825337B6F008E31C8 /* OpenMacroTrackerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E35F1AD625337B6E008E31C8 /* FreeMacroTracker */ = {
+		E35F1AD625337B6E008E31C8 /* OpenMacroTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTracker" */;
+			buildConfigurationList = E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTracker" */;
 			buildPhases = (
 				2CEAB2B127DC6CA7B8243E6D /* [CP] Check Pods Manifest.lock */,
 				E35F1AD325337B6E008E31C8 /* Sources */,
@@ -191,14 +191,14 @@
 			);
 			dependencies = (
 			);
-			name = FreeMacroTracker;
+			name = OpenMacroTracker;
 			productName = FreeMacroTracker;
-			productReference = E35F1AD725337B6E008E31C8 /* FreeMacroTracker.app */;
+			productReference = E35F1AD725337B6E008E31C8 /* OpenMacroTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E35F1AEC25337B6F008E31C8 /* FreeMacroTrackerTests */ = {
+		E35F1AEC25337B6F008E31C8 /* OpenMacroTrackerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerTests" */;
+			buildConfigurationList = E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTrackerTests" */;
 			buildPhases = (
 				B0B3D93DBB2C7BDAF9392FAC /* [CP] Check Pods Manifest.lock */,
 				E35F1AE925337B6F008E31C8 /* Sources */,
@@ -210,14 +210,14 @@
 			dependencies = (
 				E35F1AEF25337B6F008E31C8 /* PBXTargetDependency */,
 			);
-			name = FreeMacroTrackerTests;
+			name = OpenMacroTrackerTests;
 			productName = FreeMacroTrackerTests;
-			productReference = E35F1AED25337B6F008E31C8 /* FreeMacroTrackerTests.xctest */;
+			productReference = E35F1AED25337B6F008E31C8 /* OpenMacroTrackerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E35F1AF725337B6F008E31C8 /* FreeMacroTrackerUITests */ = {
+		E35F1AF725337B6F008E31C8 /* OpenMacroTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerUITests" */;
+			buildConfigurationList = E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTrackerUITests" */;
 			buildPhases = (
 				C05EEF5BD530D63F143017EC /* [CP] Check Pods Manifest.lock */,
 				E35F1AF425337B6F008E31C8 /* Sources */,
@@ -230,9 +230,9 @@
 			dependencies = (
 				E35F1AFA25337B6F008E31C8 /* PBXTargetDependency */,
 			);
-			name = FreeMacroTrackerUITests;
+			name = OpenMacroTrackerUITests;
 			productName = FreeMacroTrackerUITests;
-			productReference = E35F1AF825337B6F008E31C8 /* FreeMacroTrackerUITests.xctest */;
+			productReference = E35F1AF825337B6F008E31C8 /* OpenMacroTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "FreeMacroTracker" */;
+			buildConfigurationList = E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "OpenMacroTracker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -270,9 +270,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E35F1AD625337B6E008E31C8 /* FreeMacroTracker */,
-				E35F1AEC25337B6F008E31C8 /* FreeMacroTrackerTests */,
-				E35F1AF725337B6F008E31C8 /* FreeMacroTrackerUITests */,
+				E35F1AD625337B6E008E31C8 /* OpenMacroTracker */,
+				E35F1AEC25337B6F008E31C8 /* OpenMacroTrackerTests */,
+				E35F1AF725337B6F008E31C8 /* OpenMacroTrackerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -441,12 +441,12 @@
 /* Begin PBXTargetDependency section */
 		E35F1AEF25337B6F008E31C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E35F1AD625337B6E008E31C8 /* FreeMacroTracker */;
+			target = E35F1AD625337B6E008E31C8 /* OpenMacroTracker */;
 			targetProxy = E35F1AEE25337B6F008E31C8 /* PBXContainerItemProxy */;
 		};
 		E35F1AFA25337B6F008E31C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E35F1AD625337B6E008E31C8 /* FreeMacroTracker */;
+			target = E35F1AD625337B6E008E31C8 /* OpenMacroTracker */;
 			targetProxy = E35F1AF925337B6F008E31C8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -654,7 +654,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMacroTracker.app/FreeMacroTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenMacroTracker.app/OpenMacroTracker";
 			};
 			name = Debug;
 		};
@@ -677,7 +677,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreeMacroTracker.app/FreeMacroTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenMacroTracker.app/OpenMacroTracker";
 			};
 			name = Release;
 		};
@@ -726,7 +726,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "FreeMacroTracker" */ = {
+		E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "OpenMacroTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35F1AFF25337B6F008E31C8 /* Debug */,
@@ -735,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTracker" */ = {
+		E35F1B0125337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35F1B0225337B6F008E31C8 /* Debug */,
@@ -744,7 +744,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerTests" */ = {
+		E35F1B0425337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35F1B0525337B6F008E31C8 /* Debug */,
@@ -753,7 +753,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "FreeMacroTrackerUITests" */ = {
+		E35F1B0725337B6F008E31C8 /* Build configuration list for PBXNativeTarget "OpenMacroTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E35F1B0825337B6F008E31C8 /* Debug */,
