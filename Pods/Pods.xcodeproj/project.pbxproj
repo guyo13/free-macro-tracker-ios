@@ -35,7 +35,6 @@
 		1D3F930A5FDD066645E9E3F960387CA7 /* UIColor+MaterialDynamic.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A2D1D57EBE109662BDA74F42E9A925 /* UIColor+MaterialDynamic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D4168C6947D11608210B719ABFF3710 /* MaterialSnackbarStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = D08A0BA388FAE2F71653DD6BBEBBC053 /* MaterialSnackbarStrings.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1DD10A1D9225952BB42DAC0A691ED6D5 /* MDCOverlayObserverOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5C5D54C913E7619BFDEBD18F016654 /* MDCOverlayObserverOverlay.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F8CEB9B3A65354E3E185CEA1850608B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		2064B7F3521907C86D76227882A4511B /* MDCLegacyInkLayer+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = A44F89DFC87E9A4FBFF96F12EC2AE40A /* MDCLegacyInkLayer+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		213D89C84715E03237EEC1047BF0B953 /* MDCRoundedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7943CD6328852F7A6755AB506C917CA1 /* MDCRoundedCornerTreatment.m */; };
 		22736DE40ACC28D0BF50F3BC2785D85B /* MDCRippleTouchController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC744F488093A82F4758F89FBAC8826 /* MDCRippleTouchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -47,7 +46,6 @@
 		2EADD7B4A515B808A144213C276DCFC4 /* MDCRaisedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B64B4C7EBD3C5E9EC70E5A3C9EF36B82 /* MDCRaisedButton.m */; };
 		2F968DDE9C5E5F2C5EB70BE733AF75A8 /* MaterialElevation.h in Headers */ = {isa = PBXBuildFile; fileRef = 70DAB5EDA410D307AB8E31BB0D682BB7 /* MaterialElevation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		327B763BE1277F86D6FBED64C5B0ADF1 /* MDCSnackbarMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D9EF432C074218A1E981787F95FE33 /* MDCSnackbarMessage.m */; };
-		342481B18CA28D17F144C60C63685098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		34A3D3E11CA349DE26FE3919E31A527A /* MaterialSnackbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7733FF27B2DF85C184748A40D42D71C1 /* MaterialSnackbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35055EFC9263617A0486B5673AE5FA43 /* MDCLegacyInkLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B360292FAE743A49B346D3B274EFBAD /* MDCLegacyInkLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		36D4C11EE02D89829DDA2179C9AFDB8D /* MDCRippleTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700803A9DFD866EDD80F8FA7BA02BB2 /* MDCRippleTouchController.m */; };
@@ -56,7 +54,6 @@
 		39001C11334FEAF508FCAB4F3B18490C /* MDFTextAccessibility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E08A0B64CE4CEDFB9CACB2AB8B2F9BD0 /* MDFTextAccessibility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39533609A50D5201B753FBA41309BAE0 /* MDCRippleViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 439FC19CF48C003ED330F8DC63C439D7 /* MDCRippleViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B5EFCCEAEC54404E774208CBB90FA9F /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = A5575793FB767630D7268FFE9147CA66 /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BB75BA224F4E7CC678692238EE8179B /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63E3DB69CDB81479A7C97E0F13A40958 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE160B2256AAF16D63B8082AB0F5036 /* MDCElevationOverriding.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D16FFBD07F5426938214A0CEEF4A539 /* MDCElevationOverriding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3C1BA4B6075419AC6AC2F1C25B1533A3 /* MDCTypography.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD6FFF8A7ECAFA44FD7A12D6089BC1B /* MDCTypography.m */; };
 		3FDAA0DA2E5F68859E69681F62C0B22C /* MDCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B088DB87606B82D9DF6BEAC8AD164 /* MDCButton.m */; };
@@ -64,7 +61,9 @@
 		414ABCB7E16AEC72F64E70E18FADDE3B /* MDFInternationalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE87FB003224BBCF5A9D5589EE325AA /* MDFInternationalization.framework */; };
 		4452C1D0E85ED1CBF3DDCAFC07F2CB6C /* MDFTextAccessibility-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 332C2FC8DA44CEB594CC99DE47015563 /* MDFTextAccessibility-Bridging-Header.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		44A6D2E4EB94C09EDAE2BF654418AC9E /* UIImage+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD0DA49A33552FE10252BB10D75573E /* UIImage+MaterialRTL.m */; };
+		45E1BA1A40ED09B6DC077401225DA832 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8F45B0B8C4F89F88B61B27B0487C4B1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47D4265776FA5F71D11DB69DD2AE9070 /* MDCShapedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDF754A71135CA40D7096A0B1BCF199 /* MDCShapedView.m */; };
+		486B516AA4A0E91FB1E811D150E156DC /* Pods-OpenMacroTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1AEA99569D3A5A4660CFF00170F451F /* Pods-OpenMacroTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		49F2A7BF643690BE07D1D8A98DD07569 /* UIView+MaterialRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = CC1D5E2A248839B2F2949D0437EF9C1B /* UIView+MaterialRTL.h */; };
 		4A2C12F1220BF052CFAA1F97400FD10A /* MDCInkLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1F91D13397DF8A79902A1795876006B /* MDCInkLayer.m */; };
 		4C8549FE4B1806DE25ED7EFDFE017F6F /* MDCCurvedRectShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAC4132E145A6CC943D1EF46148CE19 /* MDCCurvedRectShapeGenerator.m */; };
@@ -83,13 +82,14 @@
 		5D08FBC828C7C1F888F5DF1D52A33B11 /* MDCSnackbarOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 765AA975EB357D28B55747BB1E2E1F43 /* MDCSnackbarOverlayView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		616353A2412A8D17C8D3A98D6CBA467A /* MDFRTL.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = 591E3611F84177ABAE4A5B5C3850508F /* MDFRTL.h */; };
 		619B1993C8ED6D1DE9972BE36129A763 /* MaterialComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A52A18B459CE049A8C9C3F2C766C7E1E /* MaterialComponents-dummy.m */; };
-		636D280D7B5D9AAAD1E1AF8804D2A0EC /* Pods-FreeMacroTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B52FC94BBB3230510EDB078E7874568 /* Pods-FreeMacroTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63B9AF348AD620D3396041EDC3DD7F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		63D4576C0EC7D393236C6C599D6DD8F1 /* MDCPathGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0591C6EE446E84C5F0EA1199494CFC3F /* MDCPathGenerator.m */; };
 		64F1EF8B0286BDF5FDDF72BF8570F9BA /* MDCOverlayTransitioning.h in Headers */ = {isa = PBXBuildFile; fileRef = FC07589D31C08648977750189C7A5B33 /* MDCOverlayTransitioning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6533EAA7D6A6526069CF678046500A8B /* MDCSnackbarMessageViewInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9E18DAB2A9FC200937CAFA4484E0E5 /* MDCSnackbarMessageViewInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6724BE17A2CD33A6382598E616E89CDC /* MaterialKeyboardWatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = B6015524580773942AF1AC476AD447BB /* MaterialKeyboardWatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6843A9FA53DFFA2433F68063A39233C4 /* MaterialMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 496A7AE8C3BD354FEA18925D0A88C230 /* MaterialMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		68BCE800EFA8471AD87C089D79CABF41 /* MDCInkGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A81EC737D3BF8A9DDE55DDF56E65F5 /* MDCInkGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69E26E4E51E56ECA10DD99A032E722F2 /* Pods-OpenMacroTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E74C188F16DC17DD246DB4CE1CF7A109 /* Pods-OpenMacroTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69E446114D2DCC1F837276F4E5F80FF5 /* MDFInternationalization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6469490F94F273BA970D2E5A06A86A9A /* MDFInternationalization-dummy.m */; };
 		6B9AF1349305AE5A742A592A39067FCF /* MDCFloatingButton+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF349C6E6E892B9F8B67E7BD0B85E7A /* MDCFloatingButton+Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D7D4AFBB2A89DB0A4E4E398C8B2EB13 /* MDCButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 6399C8497F3694C5D951E4F79C9A3448 /* MDCButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -112,7 +112,6 @@
 		7C09DD19125F0EDED41A053DDD1F8640 /* MDCOverlayUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CB9BCE0CABE326B1A2068C030A512161 /* MDCOverlayUtilities.m */; };
 		7C8D7FF8B341DAD2389C8B96A0F2677E /* MDCPathGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = D5185F9865B3980FA582CD0D5155E918 /* MDCPathGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E9F6F881DAB28D4036EED279A7024A1 /* MDFInternationalization.h in Headers */ = {isa = PBXBuildFile; fileRef = 11A64103F793AE2EF216B8E22DBD3CFF /* MDFInternationalization.h */; };
-		7FA5007BDA39B100D63EBC92DE835888 /* Pods-FreeMacroTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA2D3FB926C1C97B52441DDCB4BF8F0 /* Pods-FreeMacroTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		823A44AC43B3F70F8084C110981450DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		8275A9F1C4AE1981A81C24620DC92A88 /* MDCOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CB9E44A5BC69FF374291A96A2266F9 /* MDCOverlayWindow.m */; };
 		8319B2B5F56011A162112006ED6140D6 /* MDCOverlayAnimationObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 579A7E1F037BB246DEC402AC1253A789 /* MDCOverlayAnimationObserver.m */; };
@@ -124,12 +123,14 @@
 		87EA430667A4006F6574575F4CDFAFD9 /* UIView+MaterialRTL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E080A2DC34A0E165EED3F3498F142EE /* UIView+MaterialRTL.m */; };
 		89D1F8BD9492DA5307E36D0ADA524BAA /* MDCCornerTreatment+CornerTypeInitalizer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0AFAFC42C61E3C83C2D61E95C5F79B /* MDCCornerTreatment+CornerTypeInitalizer.m */; };
 		89F8BC11D6F99A6017193EF018B594C5 /* MDFTextAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557FC5E0490CF1ED82E12AE0E2C6D948 /* MDFTextAccessibility.framework */; };
+		8ACF3877776616A4C4E5B0EB42D3EB69 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E569FB2D4E6AA5D5F1605788CFB68C1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m */; };
 		8B3A919809DEA58CFBD52A52DB2D4377 /* MDFInternationalization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8BDF0417AE526F54CE3DE785F7FFFA1 /* MDFInternationalization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BB19E0887A686BF338D99803C7CB78E /* MDCRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4835927A53669B2B0B3484134293E99 /* MDCRippleView.m */; };
 		8D28FFC8DB19F4D46244B72E73FFBABE /* CAMediaTimingFunction+MDCAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 33F4E60DDBBDDAAA4B127B64BED4C286 /* CAMediaTimingFunction+MDCAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DB912CCA26A2F7C6E8D012480E3BF57 /* MDCOverlayImplementor.h in Headers */ = {isa = PBXBuildFile; fileRef = 613B4EBEF9BEC61204405D9D3BBA4E1A /* MDCOverlayImplementor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		92AA8A7604BB3738BE17715238B8A575 /* MaterialSnackbar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 214F051EC7CED8260E0221C490335F69 /* MaterialSnackbar.bundle */; };
 		9303540CB0B6910EB9CD43CAF8096F76 /* MDCFontTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = A76B58D9900CBF2E989141499BDE9CD7 /* MDCFontTraits.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		93AD3A7A5CA61281E81D68C7332FF99B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		96C53EFCAFB1EFD864E893130A3924B5 /* UIApplication+MDCAppExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 46E9AFC0F600EC6C0758CAF56F09AFE9 /* UIApplication+MDCAppExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		973A65F77C013BD61BAD545AA24FFCD4 /* MDCTypographyUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 880419E909D2E7959F43C2FFBAB3CCAF /* MDCTypographyUtilities.m */; };
 		981A41EABA2E70BCB2C8A59AE8AD2B11 /* MDCKeyboardWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D218090B67F6A9A3E0976046C5FEC23 /* MDCKeyboardWatcher.m */; };
@@ -143,7 +144,6 @@
 		A623BB3DED4BD22DC436E2C43A744928 /* MDCCurvedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2C0535F3DEA094618C645F5E883C18 /* MDCCurvedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A663E29A727E7CCF1A85EBB88425FEEC /* MDCPillShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7741FC2C219DE88669E029D16DDDEFA8 /* MDCPillShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A6763020A29BDE2C5E65D8BD61D07359 /* MDCCutCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBE067F3DEB8AC2237FEEFA6B6C9310 /* MDCCutCornerTreatment.m */; };
-		A7A4AC6DD9BAC93598BFCB69B5FE8B00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		A81DC8355980146FFD76660499847807 /* MDCSnackbarAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E8FA625A3ECF13179CD2CB648A6CA77 /* MDCSnackbarAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A934C1BB21E541E2C536C9DAD7506F86 /* UIColor+MaterialDynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = 644B4C02741A9E8E98BF3B8DB497438C /* UIColor+MaterialDynamic.m */; };
 		AAA1D0235D70A2ED6EC6A667AFB9323E /* MDCFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC342F63E4DDFB0D9E30B68A7BC654F /* MDCFlatButton.m */; };
@@ -155,9 +155,10 @@
 		B12A03CEDB12EA149B3C350D9FF7A61C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		B2B3384A1281321E3AA4023BBBE686C1 /* MDCRectangleShapeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = A35FDE00A1648A671F6111E0AED10143 /* MDCRectangleShapeGenerator.m */; };
 		B3111CC465915549EAD8253DEBF4CB57 /* MDCEdgeTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 199687F8C5EAC80A2DCF4B4A998E43B1 /* MDCEdgeTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3D4CFE75D9EEC1758D3F924623EAB68 /* Pods-OpenMacroTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C20790E22EE3552D7FEA231927E385B /* Pods-OpenMacroTrackerTests-dummy.m */; };
 		B63C19CA513C53DB9E801CC9538454B2 /* MaterialShapeLibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = F7EED62D16A70749F98D5BCF58D0F393 /* MaterialShapeLibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6889E953E6F4625888117F20FF5110B /* MDCEdgeTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA4D9E0D739F66FDADA5B0D5AD2E74E /* MDCEdgeTreatment.m */; };
-		B7F6333641CEDB69CBD701E4787F78D0 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92A05A30B9487B4632E5EB5A8D38CBDC /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m */; };
+		BB1ED0FDBC658A72F8B8A8C05C37FB83 /* Pods-OpenMacroTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C70CB422E7200544966F5B850EC4097F /* Pods-OpenMacroTracker-dummy.m */; };
 		BBECB9DECD93BF3ACA94176DAE2AFDED /* MDCCurvedRectShapeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 576FAC4AB55BBCF16E4B089CE4F6A63E /* MDCCurvedRectShapeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCC447B2E03868AFEDF343A699BBC5AD /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 74652C3EEC872C632D13E6CD079B1FB4 /* MDCCornerTreatment+CornerTypeInitalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCD81313C61A06AF84248B59D1ADA89E /* MDCFloatingButtonModeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1A8F27BD6A733C74F4932D8519DBF4 /* MDCFloatingButtonModeAnimator.m */; };
@@ -171,6 +172,7 @@
 		C687374BC2D1DD4D310060F92F60C187 /* MDCFloatingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A28F8A0649B8897B4539EBF92907450D /* MDCFloatingButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7D4E4FD4CD2266354ED1896178500F7 /* UIFont+MaterialTypography.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DFF3BAB2756E8C0B3EE9F9738327F55 /* UIFont+MaterialTypography.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB7745123A65815E0B713151202002B2 /* MDCOverlayObserverTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 727D39FA234F93276B9FF1C177E6653F /* MDCOverlayObserverTransition.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCF22FB36CA44BC0F5F54E3310A32F0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B837DD985F89146657DD1A11935356E /* Foundation.framework */; };
 		CD03F653908220B300CF4E78992E01C9 /* MDCElevatable.h in Headers */ = {isa = PBXBuildFile; fileRef = EDBDB7ECEAC1D95A8368415F57F13B54 /* MDCElevatable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE5FA30EEBF3BA9929EBAC78520C5BA2 /* UIApplication+MDCAppExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D734F05A7528A6BCBE3A287F5A47E9FC /* UIApplication+MDCAppExtensions.m */; };
 		CF46560787B29821D813FEFEA4B3F47F /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 12338DF2DCFDF1F5C55C3DF76208E3A7 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -180,7 +182,6 @@
 		D18590F37318730894C426A17A7CB9E2 /* MaterialColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 15D6CD5034DCDD904A648D64D06DA320 /* MaterialColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D1A04DDDEC2F702C3767F00BB402E7A3 /* NSArray+MDFUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F49EE3C3ED107987DE62CBBB6D3149 /* NSArray+MDFUtils.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D1F9052C6AFDEDAB4C0E8DAB77B0E9D9 /* NSString+MaterialBidi.m in Sources */ = {isa = PBXBuildFile; fileRef = F72AC68BB9BF7E3CBA654809BAA0DD5A /* NSString+MaterialBidi.m */; };
-		D286E384ECD69D0444963CC7DBA2536E /* Pods-FreeMacroTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA1482E831FF624A7C928727BB7D41 /* Pods-FreeMacroTrackerTests-dummy.m */; };
 		D2F1638C1869409D15951FE1912D739E /* MDCFontTraits.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5083C2FD169DD04E8545A96D25ECAE /* MDCFontTraits.m */; };
 		D2FA05D88D46B3F312D02BED2B228DDB /* MDCInkViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0BCA1405265B2142EE01B567B25367 /* MDCInkViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3650C653ABD5A680FA2F48418F4037E /* MDCSnackbarError.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEC2C19EF5C8DD568C90FAFB34E7ED0 /* MDCSnackbarError.m */; };
@@ -203,7 +204,6 @@
 		E9F41DB05E8937C2418B1DBB3415FC20 /* MDCOverlayObserverOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 597477C9FCD70EC917E78E057E666EC3 /* MDCOverlayObserverOverlay.m */; };
 		EBA0ABA040CE153076C9F6C824FB4C1D /* MDCFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F75F3037659D003BA1C989F94955D466 /* MDCFlatButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBA506963C778B29BF25E00AC8936DD4 /* MDCSnackbarOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = B18CD80EE6255551CD10593B144ADEDC /* MDCSnackbarOverlayView.m */; };
-		EFC37FDC644CB9F0ECC8A898429DBFEF /* Pods-FreeMacroTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC956F5165AD7E59B6FA505410E4429C /* Pods-FreeMacroTracker-dummy.m */; };
 		F01BC083F06F3AEF7CEDD46482D6BF13 /* MDCOverlayObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F20475F1929FB683A55FEED4CB33BD /* MDCOverlayObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F04DCB609BB1E03DDC077D09A2472E94 /* UIView+MaterialElevationResponding.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BD37249FBA5E2DDC98454FFDC39EAA /* UIView+MaterialElevationResponding.m */; };
 		F0DFBCAD78E8F8479F1001D5FB3B3CA7 /* MDCStatefulRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCA311B13429EBF34B515DCE8B33C36 /* MDCStatefulRippleView.m */; };
@@ -220,12 +220,26 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F5A22C688ECFD23CF46AC2A81B15707 /* PBXContainerItemProxy */ = {
+		13A05FEFE873350E8F8B467340024578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
+			remoteInfo = MDFTextAccessibility;
+		};
+		1F66564D8EFC3E7B58154B126C187972 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
 			remoteInfo = MaterialComponents;
+		};
+		3C2696FFA2677FC4D6BC0F1A7D0F50B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
+			remoteInfo = MDFInternationalization;
 		};
 		416C6235886CD3FD4EF9139C9062A9AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -234,26 +248,19 @@
 			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
 			remoteInfo = MDFInternationalization;
 		};
-		4CBC7567E6EEDF08D140C69A681A28F0 /* PBXContainerItemProxy */ = {
+		6D232BCDAF337E64BEB4A8E215DBD8B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
+			remoteInfo = MDFTextAccessibility;
+		};
+		88DB21765FF4687511D96B56D7BF7193 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4723B5744013DF08BE3A5FEAA286944;
 			remoteInfo = MaterialComponents;
-		};
-		9D2085636B645AB1BABF2BEAD76D743D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 416EE97E26A6D8CF95AD55EE7A5B5951;
-			remoteInfo = "Pods-FreeMacroTracker";
-		};
-		9F49A7012CD428A8D95C9B0982B6601C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
-			remoteInfo = MDFInternationalization;
 		};
 		AA3A50E1335B70773D1FD01814B64100 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -262,26 +269,19 @@
 			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
 			remoteInfo = MDFTextAccessibility;
 		};
-		B0B726BECD1A1170612F39C1BEBB55F3 /* PBXContainerItemProxy */ = {
+		C3F25FD2301BA3510C229780ACC0DF07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
-			remoteInfo = MDFTextAccessibility;
+			remoteGlobalIDString = 3A10CC267381497FA7FCEC549639A099;
+			remoteInfo = "Pods-OpenMacroTracker";
 		};
-		D75B432E8951743EB8870F05C9B2BB53 /* PBXContainerItemProxy */ = {
+		D35155E61FEB4082FE40912173716E23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 55A01F8E987A6E2F7F0ED141A1ECA406;
 			remoteInfo = MDFInternationalization;
-		};
-		F9667B81624B2C677D509202F3DAE800 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A8E4C927B2E899954BC2FD3314BCA9DA;
-			remoteInfo = MDFTextAccessibility;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -305,9 +305,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0081BC3E9C5E17EB035E4F2E0A0C1806 /* Pods_FreeMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FreeMacroTracker.framework; path = "Pods-FreeMacroTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00D4FCD3C958DBFAC8F9A31994AB39A2 /* MaterialButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialButtons.h; path = components/Buttons/src/MaterialButtons.h; sourceTree = "<group>"; };
-		027A812C2F161D6C2A82619E54644C95 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0374C1A44914CA55B1C556FE55D67FEB /* MDCLegacyInkLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCLegacyInkLayer.m; path = components/Ink/src/private/MDCLegacyInkLayer.m; sourceTree = "<group>"; };
 		045F6DDD1ECE4B82CCF5B5B9E3165422 /* MDCShapedShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedShadowLayer.m; path = components/Shapes/src/MDCShapedShadowLayer.m; sourceTree = "<group>"; };
 		0591C6EE446E84C5F0EA1199494CFC3F /* MDCPathGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPathGenerator.m; path = components/Shapes/src/MDCPathGenerator.m; sourceTree = "<group>"; };
@@ -315,10 +313,9 @@
 		07E8484FDAC9B57B431994ACF4966334 /* MDFTextAccessibility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFTextAccessibility.release.xcconfig; sourceTree = "<group>"; };
 		09CA899A0479E41C1CEAC048E85755F4 /* MaterialApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialApplication.h; path = components/private/Application/src/MaterialApplication.h; sourceTree = "<group>"; };
 		0AF672011B90471367639C9736087F3F /* MDCKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.h; sourceTree = "<group>"; };
-		0B52FC94BBB3230510EDB078E7874568 /* Pods-FreeMacroTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FreeMacroTracker-umbrella.h"; sourceTree = "<group>"; };
 		0C072121635CCED63730E2D9D97E1F19 /* UIFont+MaterialSimpleEquality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialSimpleEquality.h"; path = "components/Typography/src/UIFont+MaterialSimpleEquality.h"; sourceTree = "<group>"; };
+		0C20790E22EE3552D7FEA231927E385B /* Pods-OpenMacroTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenMacroTrackerTests-dummy.m"; sourceTree = "<group>"; };
 		0C2C0535F3DEA094618C645F5E883C18 /* MDCCurvedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedCornerTreatment.h; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.h; sourceTree = "<group>"; };
-		0CE56042A81F96A9C44B4FF5812E6921 /* Pods-FreeMacroTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		0DC744F488093A82F4758F89FBAC8826 /* MDCRippleTouchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleTouchController.h; path = components/Ripple/src/MDCRippleTouchController.h; sourceTree = "<group>"; };
 		0E8FA625A3ECF13179CD2CB648A6CA77 /* MDCSnackbarAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarAlignment.h; path = components/Snackbar/src/MDCSnackbarAlignment.h; sourceTree = "<group>"; };
 		0F72CDA7287FEF275541964311042BC2 /* MDFInternationalization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFInternationalization.release.xcconfig; sourceTree = "<group>"; };
@@ -330,39 +327,41 @@
 		17F6FCD2EDFE890AC260F4CE995B6AEA /* MDCShapedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedView.h; path = components/Shapes/src/MDCShapedView.h; sourceTree = "<group>"; };
 		199687F8C5EAC80A2DCF4B4A998E43B1 /* MDCEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCEdgeTreatment.h; path = components/Shapes/src/MDCEdgeTreatment.h; sourceTree = "<group>"; };
 		1B1D5890427097D6D6FC0BE08168810B /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
+		1B6BFBFD4C3493175B8B8217F88F5B99 /* Pods_OpenMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenMacroTracker.framework; path = "Pods-OpenMacroTracker.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD6FFF8A7ECAFA44FD7A12D6089BC1B /* MDCTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypography.m; path = components/Typography/src/MDCTypography.m; sourceTree = "<group>"; };
 		1D7C36CA0530BC6939245F88A1BD8462 /* MDCInkTouchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkTouchController.h; path = components/Ink/src/MDCInkTouchController.h; sourceTree = "<group>"; };
 		1DC21EA20BA8477ED7C1A5649355550A /* MDCSlantedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSlantedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.m; sourceTree = "<group>"; };
+		1E5150E10304C5CA3F41EC261EC61604 /* Pods-OpenMacroTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTrackerTests-Info.plist"; sourceTree = "<group>"; };
 		1F5633460D6482D3BCF9963E1E638A9B /* MDFInternationalization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFInternationalization.modulemap; sourceTree = "<group>"; };
 		20205C7ADC54AC2EB639B25AB5049708 /* MDCInkTouchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCInkTouchController.m; path = components/Ink/src/MDCInkTouchController.m; sourceTree = "<group>"; };
 		214F051EC7CED8260E0221C490335F69 /* MaterialSnackbar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialSnackbar.bundle; path = components/Snackbar/src/MaterialSnackbar.bundle; sourceTree = "<group>"; };
-		2315E298EDC1CC281FD4D923A8D42203 /* Pods-FreeMacroTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FreeMacroTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23231A06F8D4ADD2F67A4B33418D8B31 /* MDCFontScaler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontScaler.h; path = components/Typography/src/MDCFontScaler.h; sourceTree = "<group>"; };
 		23A8FD3876FA9D13B34484A0E190F609 /* MDCFloatingButtonModeAnimatorDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFloatingButtonModeAnimatorDelegate.h; path = components/Buttons/src/private/MDCFloatingButtonModeAnimatorDelegate.h; sourceTree = "<group>"; };
 		25F47A624CA53DA4711436362E49F06F /* UIColor+MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialElevation.h"; path = "components/Elevation/src/UIColor+MaterialElevation.h"; sourceTree = "<group>"; };
+		26058F88EF9FF40BBD67256379C0288D /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264E8B138DC2753FD488FF02D4663BC6 /* UIFontDescriptor+MaterialTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFontDescriptor+MaterialTypography.m"; path = "components/Typography/src/UIFontDescriptor+MaterialTypography.m"; sourceTree = "<group>"; };
-		26FFDE8395CF0ACC3F95EC89351E985E /* Pods-FreeMacroTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		27C604939524DE638CC91D48846BD04D /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		28AF0994C09B1A228EA3F2B1B7E15AF2 /* MDCInkLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkLayer.h; path = components/Ink/src/private/MDCInkLayer.h; sourceTree = "<group>"; };
+		2967B6F6910CD92B2495E128E8072424 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2A479B8D001C32D3CB815242F4ADE543 /* MDCLegacyInkLayerRippleDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLegacyInkLayerRippleDelegate.h; path = components/Ink/src/private/MDCLegacyInkLayerRippleDelegate.h; sourceTree = "<group>"; };
 		2AB8DEDCDE6B77C2B7D4565B757A6BD5 /* MDCStatefulRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCStatefulRippleView.h; path = components/Ripple/src/MDCStatefulRippleView.h; sourceTree = "<group>"; };
-		2CA2D3FB926C1C97B52441DDCB4BF8F0 /* Pods-FreeMacroTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FreeMacroTrackerTests-umbrella.h"; sourceTree = "<group>"; };
 		30622F93B1F737D70891960F29293286 /* MDCCutCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCutCornerTreatment.h; path = components/ShapeLibrary/src/MDCCutCornerTreatment.h; sourceTree = "<group>"; };
 		30A764DF1EE452F4616442D3C3ACD687 /* MDCSlantedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSlantedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCSlantedRectShapeGenerator.h; sourceTree = "<group>"; };
 		31C195437F5531C6690B2C37FB896D3A /* MDCRippleLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleLayer.m; path = components/Ripple/src/private/MDCRippleLayer.m; sourceTree = "<group>"; };
 		332C2FC8DA44CEB594CC99DE47015563 /* MDFTextAccessibility-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDFTextAccessibility-Bridging-Header.h"; path = "src/MDFTextAccessibility-Bridging-Header.h"; sourceTree = "<group>"; };
 		33F4E60DDBBDDAAA4B127B64BED4C286 /* CAMediaTimingFunction+MDCAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAMediaTimingFunction+MDCAnimationTiming.h"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.h"; sourceTree = "<group>"; };
-		34CAF2FC49DFBC42E2272DDA84B63122 /* Pods-FreeMacroTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		350705D6DA929F8AEB7AD2013BD4CEDC /* MDCSnackbarMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarMessage.h; path = components/Snackbar/src/MDCSnackbarMessage.h; sourceTree = "<group>"; };
 		39479F8F030C00251603056EC337BF27 /* MaterialInk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialInk.h; path = components/Ink/src/MaterialInk.h; sourceTree = "<group>"; };
 		39BFCF739A6C301E4E03FE35CE633C50 /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
 		3A9E18DAB2A9FC200937CAFA4484E0E5 /* MDCSnackbarMessageViewInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarMessageViewInternal.h; path = components/Snackbar/src/private/MDCSnackbarMessageViewInternal.h; sourceTree = "<group>"; };
-		3B0125BC8519FC3F3650E67DF144B853 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3F9ED00E783C33673F55B5A37D5C621F /* MDFColorCalculations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFColorCalculations.m; path = src/private/MDFColorCalculations.m; sourceTree = "<group>"; };
+		406D3520F91FADE61CDF185E2B810C38 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		425884AC23E86316ABDEAA3E33754804 /* UIColor+MaterialElevation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialElevation.m"; path = "components/Elevation/src/UIColor+MaterialElevation.m"; sourceTree = "<group>"; };
 		439FC19CF48C003ED330F8DC63C439D7 /* MDCRippleViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleViewDelegate.h; path = components/Ripple/src/MDCRippleViewDelegate.h; sourceTree = "<group>"; };
 		46E9AFC0F600EC6C0758CAF56F09AFE9 /* UIApplication+MDCAppExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+MDCAppExtensions.h"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.h"; sourceTree = "<group>"; };
 		47BA12BF2D2494A62A0DFB2D929F257F /* MDFTextAccessibility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFTextAccessibility-prefix.pch"; sourceTree = "<group>"; };
 		47EDE2ECEB46E65D3A5568019F981ECD /* MDCSnackbarManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarManager.h; path = components/Snackbar/src/MDCSnackbarManager.h; sourceTree = "<group>"; };
+		4809D17B03C60FD8116D02933E922C65 /* Pods-OpenMacroTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenMacroTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
 		48D42C19B809666015D903375061E2C9 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
 		496A7AE8C3BD354FEA18925D0A88C230 /* MaterialMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialMath.h; path = components/private/Math/src/MaterialMath.h; sourceTree = "<group>"; };
 		498E5837321BA101A101CCC6731AC9B8 /* MaterialComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialComponents.debug.xcconfig; sourceTree = "<group>"; };
@@ -373,9 +372,10 @@
 		4DFF3BAB2756E8C0B3EE9F9738327F55 /* UIFont+MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialTypography.h"; path = "components/Typography/src/UIFont+MaterialTypography.h"; sourceTree = "<group>"; };
 		4E9E6C5099BEE2A672D0A20535C6A90D /* MDFTextAccessibility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MDFTextAccessibility.debug.xcconfig; sourceTree = "<group>"; };
 		4F5083C2FD169DD04E8545A96D25ECAE /* MDCFontTraits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFontTraits.m; path = components/Typography/src/private/MDCFontTraits.m; sourceTree = "<group>"; };
-		51CA6FFAC426E2E6F6E49E22E9B90754 /* Pods-FreeMacroTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FreeMacroTracker-frameworks.sh"; sourceTree = "<group>"; };
+		51696DACDDDFC20B7F42CAAF6985C8BA /* Pods-OpenMacroTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		52CB9E44A5BC69FF374291A96A2266F9 /* MDCOverlayWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayWindow.m; path = components/OverlayWindow/src/MDCOverlayWindow.m; sourceTree = "<group>"; };
 		53DA36AC500D06861276A86B09AAD183 /* MDCPillShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPillShapeGenerator.m; path = components/ShapeLibrary/src/MDCPillShapeGenerator.m; sourceTree = "<group>"; };
+		553DA49542218BE3175193C21DBF6ACA /* Pods-OpenMacroTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenMacroTracker.modulemap"; sourceTree = "<group>"; };
 		557FC5E0490CF1ED82E12AE0E2C6D948 /* MDFTextAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		576FAC4AB55BBCF16E4B089CE4F6A63E /* MDCCurvedRectShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCurvedRectShapeGenerator.h; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.h; sourceTree = "<group>"; };
 		579A7E1F037BB246DEC402AC1253A789 /* MDCOverlayAnimationObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayAnimationObserver.m; path = components/private/Overlay/src/private/MDCOverlayAnimationObserver.m; sourceTree = "<group>"; };
@@ -384,6 +384,7 @@
 		58F76E19F940A8F83D119F69C3E8BFFB /* MDCRippleTouchControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleTouchControllerDelegate.h; path = components/Ripple/src/MDCRippleTouchControllerDelegate.h; sourceTree = "<group>"; };
 		591E3611F84177ABAE4A5B5C3850508F /* MDFRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFRTL.h; path = Sources/MDFRTL.h; sourceTree = "<group>"; };
 		597477C9FCD70EC917E78E057E666EC3 /* MDCOverlayObserverOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayObserverOverlay.m; path = components/private/Overlay/src/private/MDCOverlayObserverOverlay.m; sourceTree = "<group>"; };
+		5B99866EC0EA2375882221FF1D56CBEB /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.modulemap"; sourceTree = "<group>"; };
 		5BCA311B13429EBF34B515DCE8B33C36 /* MDCStatefulRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCStatefulRippleView.m; path = components/Ripple/src/MDCStatefulRippleView.m; sourceTree = "<group>"; };
 		5C2638F94D562ED5CF19A7139726A292 /* MDFInternationalization-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-prefix.pch"; sourceTree = "<group>"; };
 		5CC342F63E4DDFB0D9E30B68A7BC654F /* MDCFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFlatButton.m; path = components/Buttons/src/MDCFlatButton.m; sourceTree = "<group>"; };
@@ -391,17 +392,17 @@
 		5F16AAEC941FCB7E363E1CFB46F18D9A /* MDCOverlayObserverTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayObserverTransition.m; path = components/private/Overlay/src/private/MDCOverlayObserverTransition.m; sourceTree = "<group>"; };
 		60D9EF432C074218A1E981787F95FE33 /* MDCSnackbarMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarMessage.m; path = components/Snackbar/src/MDCSnackbarMessage.m; sourceTree = "<group>"; };
 		613B4EBEF9BEC61204405D9D3BBA4E1A /* MDCOverlayImplementor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayImplementor.h; path = components/private/Overlay/src/MDCOverlayImplementor.h; sourceTree = "<group>"; };
-		630362C165A079FF15A9B77A61F464A6 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.modulemap"; sourceTree = "<group>"; };
 		631D498F8A7D8F3A579D475DDE9637E6 /* UIView+MDCTimingFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCTimingFunction.h"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.h"; sourceTree = "<group>"; };
 		6361BA5311EAC1BE88979B3196F582A4 /* MDCRectangleShapeGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRectangleShapeGenerator.h; path = components/Shapes/src/MDCRectangleShapeGenerator.h; sourceTree = "<group>"; };
+		6395CE2F1F87EAAA9D6AC664EF2321A5 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6399C8497F3694C5D951E4F79C9A3448 /* MDCButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCButton.h; path = components/Buttons/src/MDCButton.h; sourceTree = "<group>"; };
-		63E3DB69CDB81479A7C97E0F13A40958 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
 		644B4C02741A9E8E98BF3B8DB497438C /* UIColor+MaterialDynamic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialDynamic.m"; path = "components/private/Color/src/UIColor+MaterialDynamic.m"; sourceTree = "<group>"; };
 		6451644EFA47FDB19012B07035D61488 /* MDCTriangleEdgeTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTriangleEdgeTreatment.m; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.m; sourceTree = "<group>"; };
 		6469490F94F273BA970D2E5A06A86A9A /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
 		64A2D1D57EBE109662BDA74F42E9A925 /* UIColor+MaterialDynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialDynamic.h"; path = "components/private/Color/src/UIColor+MaterialDynamic.h"; sourceTree = "<group>"; };
 		6A8E735D89107B2F90835CA87A2F5487 /* UIFont+MaterialTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialTypography.m"; path = "components/Typography/src/UIFont+MaterialTypography.m"; sourceTree = "<group>"; };
 		6B837DD985F89146657DD1A11935356E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CD57C5DA1EDC4BBBA24C11A01360D46 /* Pods-OpenMacroTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D218090B67F6A9A3E0976046C5FEC23 /* MDCKeyboardWatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCKeyboardWatcher.m; path = components/private/KeyboardWatcher/src/MDCKeyboardWatcher.m; sourceTree = "<group>"; };
 		6D7459A64E4F01ECC7065795DDA7A943 /* MDCCurvedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedCornerTreatment.m; path = components/ShapeLibrary/src/MDCCurvedCornerTreatment.m; sourceTree = "<group>"; };
 		6E080A2DC34A0E165EED3F3498F142EE /* UIView+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialRTL.m"; path = "Sources/UIView+MaterialRTL.m"; sourceTree = "<group>"; };
@@ -423,8 +424,9 @@
 		7943CD6328852F7A6755AB506C917CA1 /* MDCRoundedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRoundedCornerTreatment.m; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.m; sourceTree = "<group>"; };
 		7A33045327F3055EF3B96867DF999790 /* UIFontDescriptor+MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFontDescriptor+MaterialTypography.h"; path = "components/Typography/src/UIFontDescriptor+MaterialTypography.h"; sourceTree = "<group>"; };
 		7A8F511CF3A5A2DC20372D7C0E832B40 /* MaterialOverlayWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialOverlayWindow.h; path = components/OverlayWindow/src/MaterialOverlayWindow.h; sourceTree = "<group>"; };
+		7B2A586174C1CC13EEC3567324FCB9B2 /* Pods-OpenMacroTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		818A79C0009F8B38E523BA0F73AF1F54 /* MDCInkGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCInkGestureRecognizer.m; path = components/Ink/src/MDCInkGestureRecognizer.m; sourceTree = "<group>"; };
-		8234096D2676FD26EFD5E91637333A5E /* Pods-FreeMacroTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FreeMacroTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83C425D38723182BABCEAD027A0846E6 /* Pods-OpenMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
 		8401BD9AAD6D4AC4424DD7533AF3640C /* MDCSnackbarManagerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarManagerInternal.h; path = components/Snackbar/src/private/MDCSnackbarManagerInternal.h; sourceTree = "<group>"; };
 		8418134097B8683D78F8238CA38374E6 /* MDCCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCornerTreatment.m; path = components/Shapes/src/MDCCornerTreatment.m; sourceTree = "<group>"; };
 		84A53096147BBB04F482E60319049495 /* MDCInkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkView.h; path = components/Ink/src/MDCInkView.h; sourceTree = "<group>"; };
@@ -434,10 +436,10 @@
 		880419E909D2E7959F43C2FFBAB3CCAF /* MDCTypographyUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypographyUtilities.m; path = components/Typography/src/private/MDCTypographyUtilities.m; sourceTree = "<group>"; };
 		88B317CB1D847B43E43502E0D6856BC8 /* MDFImageCalculations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFImageCalculations.m; path = src/private/MDFImageCalculations.m; sourceTree = "<group>"; };
 		8C0B64EF4BC7BEF7D13603F8B32FFE29 /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
+		8D445F2425171B621BF172828B56E74F /* Pods-OpenMacroTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTracker-Info.plist"; sourceTree = "<group>"; };
+		8E569FB2D4E6AA5D5F1605788CFB68C1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m"; sourceTree = "<group>"; };
 		910F9CCE14EB221DB4D74C5484A22AC6 /* MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialTypography.h; path = components/Typography/src/MaterialTypography.h; sourceTree = "<group>"; };
-		92A05A30B9487B4632E5EB5A8D38CBDC /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m"; sourceTree = "<group>"; };
 		9383EFD5361D46ABDF716F0A4AEB8A3E /* MaterialComponents-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-prefix.pch"; sourceTree = "<group>"; };
-		98FA1482E831FF624A7C928727BB7D41 /* Pods-FreeMacroTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FreeMacroTrackerTests-dummy.m"; sourceTree = "<group>"; };
 		99AF163B302240E000B8F6E5A621CA89 /* MDCTriangleEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTriangleEdgeTreatment.h; path = components/ShapeLibrary/src/MDCTriangleEdgeTreatment.h; sourceTree = "<group>"; };
 		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFInternationalization.framework; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B360292FAE743A49B346D3B274EFBAD /* MDCLegacyInkLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLegacyInkLayer.h; path = components/Ink/src/private/MDCLegacyInkLayer.h; sourceTree = "<group>"; };
@@ -445,18 +447,18 @@
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A09A5BB285BBC5BA705EBA3772173C2A /* MDCSnackbarMessageInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarMessageInternal.h; path = components/Snackbar/src/private/MDCSnackbarMessageInternal.h; sourceTree = "<group>"; };
 		A0C256ED07ABCE09187D28806CF12A70 /* MDCLegacyInkLayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLegacyInkLayerDelegate.h; path = components/Ink/src/private/MDCLegacyInkLayerDelegate.h; sourceTree = "<group>"; };
+		A1AEA99569D3A5A4660CFF00170F451F /* Pods-OpenMacroTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenMacroTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		A1FABABA3163EDB9C007F09ACB893468 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-Info.plist"; sourceTree = "<group>"; };
 		A22AA31190FDC120CDC1FB58F0FAD003 /* MDCRaisedButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRaisedButton.h; path = components/Buttons/src/MDCRaisedButton.h; sourceTree = "<group>"; };
-		A22F4DF3120B25EC7E66D5AFAB5CE62F /* Pods-FreeMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
 		A28F8A0649B8897B4539EBF92907450D /* MDCFloatingButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFloatingButton.h; path = components/Buttons/src/MDCFloatingButton.h; sourceTree = "<group>"; };
 		A2AED4DBD38807E18CDAF3195284806F /* UIFont+MaterialTypographyPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialTypographyPrivate.m"; path = "components/Typography/src/private/UIFont+MaterialTypographyPrivate.m"; sourceTree = "<group>"; };
 		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A35FDE00A1648A671F6111E0AED10143 /* MDCRectangleShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRectangleShapeGenerator.m; path = components/Shapes/src/MDCRectangleShapeGenerator.m; sourceTree = "<group>"; };
 		A44F89DFC87E9A4FBFF96F12EC2AE40A /* MDCLegacyInkLayer+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCLegacyInkLayer+Private.h"; path = "components/Ink/src/private/MDCLegacyInkLayer+Private.h"; sourceTree = "<group>"; };
-		A4A01E1679D17E912D05AF67A5D1295A /* Pods-FreeMacroTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4BCBBEF6B1D61EDBDB958485558F1B7 /* Pods-OpenMacroTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpenMacroTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A52A18B459CE049A8C9C3F2C766C7E1E /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
 		A5575793FB767630D7268FFE9147CA66 /* MaterialAnimationTiming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAnimationTiming.h; path = components/AnimationTiming/src/MaterialAnimationTiming.h; sourceTree = "<group>"; };
 		A76B58D9900CBF2E989141499BDE9CD7 /* MDCFontTraits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontTraits.h; path = components/Typography/src/private/MDCFontTraits.h; sourceTree = "<group>"; };
-		A81F80F93E05AA047E78E6CA209FB751 /* Pods_FreeMacroTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FreeMacroTrackerTests.framework; path = "Pods-FreeMacroTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BDF0417AE526F54CE3DE785F7FFFA1 /* MDFInternationalization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFInternationalization-umbrella.h"; sourceTree = "<group>"; };
 		A9446D77B6BBF3471003D431BA3080C7 /* MDCSnackbarError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarError.h; path = components/Snackbar/src/MDCSnackbarError.h; sourceTree = "<group>"; };
 		ABAC4132E145A6CC943D1EF46148CE19 /* MDCCurvedRectShapeGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCurvedRectShapeGenerator.m; path = components/ShapeLibrary/src/MDCCurvedRectShapeGenerator.m; sourceTree = "<group>"; };
@@ -467,7 +469,6 @@
 		B18CD80EE6255551CD10593B144ADEDC /* MDCSnackbarOverlayView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarOverlayView.m; path = components/Snackbar/src/private/MDCSnackbarOverlayView.m; sourceTree = "<group>"; };
 		B338ABA2CABBB31C8B19A5FA2EACFB1D /* MaterialShapes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapes.h; path = components/Shapes/src/MaterialShapes.h; sourceTree = "<group>"; };
 		B4137E3359D97F59B385594CBD274E92 /* MaterialComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialComponents-umbrella.h"; sourceTree = "<group>"; };
-		B4407F262EA15258155FFA0E7F846A19 /* Pods-FreeMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B44A9077614008A30C2273DB084C9DDB /* MDCFloatingButton+Animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCFloatingButton+Animation.m"; path = "components/Buttons/src/MDCFloatingButton+Animation.m"; sourceTree = "<group>"; };
 		B46028A3737508C8CE92F0C2B58A892B /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
 		B53CFEED40BC896EB9221F648FD6D805 /* MDCInkView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCInkView.m; path = components/Ink/src/MDCInkView.m; sourceTree = "<group>"; };
@@ -475,7 +476,6 @@
 		B5CA506105C26F1BA318C7DA447BCB4B /* MaterialOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialOverlay.h; path = components/private/Overlay/src/MaterialOverlay.h; sourceTree = "<group>"; };
 		B6015524580773942AF1AC476AD447BB /* MaterialKeyboardWatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialKeyboardWatcher.h; path = components/private/KeyboardWatcher/src/MaterialKeyboardWatcher.h; sourceTree = "<group>"; };
 		B64B4C7EBD3C5E9EC70E5A3C9EF36B82 /* MDCRaisedButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRaisedButton.m; path = components/Buttons/src/MDCRaisedButton.m; sourceTree = "<group>"; };
-		B6C28B1A065F18FB7D7ABDBE933479A9 /* Pods-FreeMacroTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		B71A95F2AF2C9D7CBFCA3F4AF51D86F1 /* MaterialShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowElevations.h; path = components/ShadowElevations/src/MaterialShadowElevations.h; sourceTree = "<group>"; };
 		B7A81EC737D3BF8A9DDE55DDF56E65F5 /* MDCInkGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkGestureRecognizer.h; path = components/Ink/src/MDCInkGestureRecognizer.h; sourceTree = "<group>"; };
 		B85C39B06EAD2DBCCD54395B1F8B8BA3 /* MDFRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFRTL.m; path = Sources/MDFRTL.m; sourceTree = "<group>"; };
@@ -483,16 +483,17 @@
 		BBFC8A30B659921FC9A680269CE0C535 /* UIColor+MaterialBlending.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MaterialBlending.m"; path = "components/private/Color/src/UIColor+MaterialBlending.m"; sourceTree = "<group>"; };
 		BCACEC8C4D661933608AA9677CD6F3C8 /* MDFTextAccessibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFTextAccessibility.h; path = src/MDFTextAccessibility.h; sourceTree = "<group>"; };
 		BCEC2C19EF5C8DD568C90FAFB34E7ED0 /* MDCSnackbarError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarError.m; path = components/Snackbar/src/MDCSnackbarError.m; sourceTree = "<group>"; };
-		BD3A68FC4904AC369D2135E4C3D9E72C /* Pods-FreeMacroTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTracker-Info.plist"; sourceTree = "<group>"; };
 		BE4D96F6FD108421179AD56F34445EB6 /* MDCButton+Subclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCButton+Subclassing.h"; path = "components/Buttons/src/private/MDCButton+Subclassing.h"; sourceTree = "<group>"; };
 		BEE5ACA07F19791066D7ED7A52F2357F /* MDCOverlayUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayUtilities.h; path = components/private/Overlay/src/private/MDCOverlayUtilities.h; sourceTree = "<group>"; };
 		BFD0A6BC531661C1595225802CB42FB1 /* UIFont+MaterialScalable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialScalable.h"; path = "components/Typography/src/UIFont+MaterialScalable.h"; sourceTree = "<group>"; };
-		C1E77D15D74086E027AD720F9DBB6650 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C39D756556731BAF0F643DA3A6AFF1EE /* MDCOverlayObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayObserver.m; path = components/private/Overlay/src/MDCOverlayObserver.m; sourceTree = "<group>"; };
 		C4975B747656FA9A9D100F5E93ED28A0 /* MDCSnackbarManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarManager.m; path = components/Snackbar/src/MDCSnackbarManager.m; sourceTree = "<group>"; };
 		C4F20475F1929FB683A55FEED4CB33BD /* MDCOverlayObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayObserver.h; path = components/private/Overlay/src/MDCOverlayObserver.h; sourceTree = "<group>"; };
 		C6719C27328453448E7DDBE8678E8F6A /* MDCSnackbarMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarMessageView.h; path = components/Snackbar/src/MDCSnackbarMessageView.h; sourceTree = "<group>"; };
+		C70CB422E7200544966F5B850EC4097F /* Pods-OpenMacroTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpenMacroTracker-dummy.m"; sourceTree = "<group>"; };
 		C8C305EA5C61F162E59BD67C09514A9A /* MDCFloatingButtonModeAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFloatingButtonModeAnimator.h; path = components/Buttons/src/private/MDCFloatingButtonModeAnimator.h; sourceTree = "<group>"; };
+		C8F45B0B8C4F89F88B61B27B0487C4B1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		CB4C9323B45D446DA0FE5CF850B487B6 /* Pods-OpenMacroTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpenMacroTracker-frameworks.sh"; sourceTree = "<group>"; };
 		CB97A681513FEEDB5E6981B24C8F2CA4 /* MDCOverlayWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayWindow.h; path = components/OverlayWindow/src/MDCOverlayWindow.h; sourceTree = "<group>"; };
 		CB9BCE0CABE326B1A2068C030A512161 /* MDCOverlayUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayUtilities.m; path = components/private/Overlay/src/private/MDCOverlayUtilities.m; sourceTree = "<group>"; };
 		CBDDBE959D45E4700F67B866E6327B3E /* MaterialSnackbarStrings_table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialSnackbarStrings_table.h; path = components/Snackbar/src/private/MaterialSnackbarStrings_table.h; sourceTree = "<group>"; };
@@ -503,27 +504,25 @@
 		CF7D0D1031AFDBFBC0BEBB1EDAABD05F /* MDFTextAccessibility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MDFTextAccessibility.modulemap; sourceTree = "<group>"; };
 		D03D08DC4FCF63CA78B8B00C7C926DB1 /* MaterialShadowElevationsDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialShadowElevationsDummy.m; path = components/ShadowElevations/src/MaterialShadowElevationsDummy.m; sourceTree = "<group>"; };
 		D08A0BA388FAE2F71653DD6BBEBBC053 /* MaterialSnackbarStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialSnackbarStrings.h; path = components/Snackbar/src/private/MaterialSnackbarStrings.h; sourceTree = "<group>"; };
-		D0C2343C67916EFC234CB364162382E5 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-Info.plist"; sourceTree = "<group>"; };
-		D1D1C7549EF1821DA08579E2A329D081 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D1F91D13397DF8A79902A1795876006B /* MDCInkLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCInkLayer.m; path = components/Ink/src/private/MDCInkLayer.m; sourceTree = "<group>"; };
 		D2C88FE66B64F9D46211CBCDB1CA322A /* MDCFontTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontTextStyle.h; path = components/Typography/src/MDCFontTextStyle.h; sourceTree = "<group>"; };
 		D3905AA0E9E3F04120E596678FFDB7FC /* MDCTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTypography.h; path = components/Typography/src/MDCTypography.h; sourceTree = "<group>"; };
 		D3F49EE3C3ED107987DE62CBBB6D3149 /* NSArray+MDFUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MDFUtils.h"; path = "src/private/NSArray+MDFUtils.h"; sourceTree = "<group>"; };
 		D4835927A53669B2B0B3484134293E99 /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
+		D49E9288F4A781E06CCBF5AE5275C074 /* Pods-OpenMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D4C9AE578245874C2879DE0D19F4801B /* UIFont+MaterialSimpleEquality.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialSimpleEquality.m"; path = "components/Typography/src/UIFont+MaterialSimpleEquality.m"; sourceTree = "<group>"; };
 		D5185F9865B3980FA582CD0D5155E918 /* MDCPathGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPathGenerator.h; path = components/Shapes/src/MDCPathGenerator.h; sourceTree = "<group>"; };
 		D734F05A7528A6BCBE3A287F5A47E9FC /* UIApplication+MDCAppExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+MDCAppExtensions.m"; path = "components/private/Application/src/UIApplication+MDCAppExtensions.m"; sourceTree = "<group>"; };
 		D8BD37249FBA5E2DDC98454FFDC39EAA /* UIView+MaterialElevationResponding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MaterialElevationResponding.m"; path = "components/Elevation/src/UIView+MaterialElevationResponding.m"; sourceTree = "<group>"; };
-		DC956F5165AD7E59B6FA505410E4429C /* Pods-FreeMacroTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FreeMacroTracker-dummy.m"; sourceTree = "<group>"; };
 		DD3C6AFF4EFDBD861DF995864DD93B1B /* MDCCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCornerTreatment.h; path = components/Shapes/src/MDCCornerTreatment.h; sourceTree = "<group>"; };
+		DE00FBEE3BAD8902723E6AC95E3E37D5 /* Pods_OpenMacroTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OpenMacroTrackerTests.framework; path = "Pods-OpenMacroTrackerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08A0B64CE4CEDFB9CACB2AB8B2F9BD0 /* MDFTextAccessibility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MDFTextAccessibility-umbrella.h"; sourceTree = "<group>"; };
-		E1B937F401F6CD41F5D52E1745FC2AE5 /* Pods-FreeMacroTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FreeMacroTrackerTests.modulemap"; sourceTree = "<group>"; };
 		E2E1C0938CA2CF2B12615A96AC78A5E3 /* MDCShapedShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapedShadowLayer.h; path = components/Shapes/src/MDCShapedShadowLayer.h; sourceTree = "<group>"; };
+		E5327EB77256939F7C024FA23F000552 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E65490362787A589B4E61CFD5C2FFE4F /* MaterialMathDummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MaterialMathDummy.m; path = components/private/Math/src/MaterialMathDummy.m; sourceTree = "<group>"; };
-		E796674F9441C1DAF295ABC6A65C3BE6 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E74C188F16DC17DD246DB4CE1CF7A109 /* Pods-OpenMacroTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpenMacroTracker-umbrella.h"; sourceTree = "<group>"; };
 		E9E5CE2161A3388135DD7E24AF7EE3DD /* MDCShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowLayer.h; path = components/ShadowLayer/src/MDCShadowLayer.h; sourceTree = "<group>"; };
 		EB0BCA1405265B2142EE01B567B25367 /* MDCInkViewDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCInkViewDelegate.h; path = components/Ink/src/MDCInkViewDelegate.h; sourceTree = "<group>"; };
-		EB104819E77F81A6434AA4D9E356F5F6 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		ECE821E791ADB88B2CAB6B3DFD6AEE78 /* MaterialShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowLayer.h; path = components/ShadowLayer/src/MaterialShadowLayer.h; sourceTree = "<group>"; };
 		ED0AFAFC42C61E3C83C2D61E95C5F79B /* MDCCornerTreatment+CornerTypeInitalizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCCornerTreatment+CornerTypeInitalizer.m"; path = "components/ShapeLibrary/src/MDCCornerTreatment+CornerTypeInitalizer.m"; sourceTree = "<group>"; };
 		ED600C1A48A4FF7CE897D028A4C0D361 /* MDCRippleLayerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRippleLayerDelegate.h; path = components/Ripple/src/private/MDCRippleLayerDelegate.h; sourceTree = "<group>"; };
@@ -534,26 +533,35 @@
 		F168199A9C49D02FF87214ED48E3FE73 /* CAMediaTimingFunction+MDCAnimationTiming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAMediaTimingFunction+MDCAnimationTiming.m"; path = "components/AnimationTiming/src/CAMediaTimingFunction+MDCAnimationTiming.m"; sourceTree = "<group>"; };
 		F3CC06E72415FA9807770AAE1A8A6EDE /* MDFImageCalculations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDFImageCalculations.h; path = src/private/MDFImageCalculations.h; sourceTree = "<group>"; };
 		F3E1B0F12C3B3883E018BF297391B208 /* MDCShadowLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShadowLayer.m; path = components/ShadowLayer/src/MDCShadowLayer.m; sourceTree = "<group>"; };
+		F4D50C4D7771D3524C433C5CA65BEC7C /* Pods-OpenMacroTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpenMacroTracker-acknowledgements.plist"; sourceTree = "<group>"; };
 		F72AC68BB9BF7E3CBA654809BAA0DD5A /* NSString+MaterialBidi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MaterialBidi.m"; path = "Sources/NSString+MaterialBidi.m"; sourceTree = "<group>"; };
 		F75F3037659D003BA1C989F94955D466 /* MDCFlatButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFlatButton.h; path = components/Buttons/src/MDCFlatButton.h; sourceTree = "<group>"; };
 		F7EED62D16A70749F98D5BCF58D0F393 /* MaterialShapeLibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShapeLibrary.h; path = components/ShapeLibrary/src/MaterialShapeLibrary.h; sourceTree = "<group>"; };
 		F81299F684B5FCF5FF9547950D0C2023 /* MDCSnackbarMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarMessageView.m; path = components/Snackbar/src/MDCSnackbarMessageView.m; sourceTree = "<group>"; };
 		FA5C5D54C913E7619BFDEBD18F016654 /* MDCOverlayObserverOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayObserverOverlay.h; path = components/private/Overlay/src/private/MDCOverlayObserverOverlay.h; sourceTree = "<group>"; };
-		FAA4B3F826A8B33E66F42A42858BA3BD /* Pods-FreeMacroTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FreeMacroTracker.modulemap"; sourceTree = "<group>"; };
 		FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFTextAccessibility.framework; path = MDFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC07589D31C08648977750189C7A5B33 /* MDCOverlayTransitioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOverlayTransitioning.h; path = components/private/Overlay/src/MDCOverlayTransitioning.h; sourceTree = "<group>"; };
 		FCD0DA49A33552FE10252BB10D75573E /* UIImage+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MaterialRTL.m"; path = "Sources/UIImage+MaterialRTL.m"; sourceTree = "<group>"; };
 		FE1A8F27BD6A733C74F4932D8519DBF4 /* MDCFloatingButtonModeAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFloatingButtonModeAnimator.m; path = components/Buttons/src/private/MDCFloatingButtonModeAnimator.m; sourceTree = "<group>"; };
 		FE8054A6A311EB290CC0CE47973DEDCF /* UIColor+MaterialBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialBlending.h"; path = "components/private/Color/src/UIColor+MaterialBlending.h"; sourceTree = "<group>"; };
 		FEDF754A71135CA40D7096A0B1BCF199 /* MDCShapedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapedView.m; path = components/Shapes/src/MDCShapedView.m; sourceTree = "<group>"; };
+		FF72597F29F7C1E8581C1B80003139B7 /* Pods-OpenMacroTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpenMacroTrackerTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32113EC9E4F1650044F1DC9C816E9BDF /* Frameworks */ = {
+		34691E81CD2751CFDDC328C79E0EBA1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8CEB9B3A65354E3E185CEA1850608B /* Foundation.framework in Frameworks */,
+				63B9AF348AD620D3396041EDC3DD7F5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746239B2B463AB892DB89A4B591CCB78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF22FB36CA44BC0F5F54E3310A32F0D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,11 +573,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F0880DE01789C408129DD3F0F23E1B5 /* Frameworks */ = {
+		A1BB4CAC1E910700089351C21A3E1475 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				342481B18CA28D17F144C60C63685098 /* Foundation.framework in Frameworks */,
+				93AD3A7A5CA61281E81D68C7332FF99B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,14 +596,6 @@
 				B12A03CEDB12EA149B3C350D9FF7A61C /* Foundation.framework in Frameworks */,
 				414ABCB7E16AEC72F64E70E18FADDE3B /* MDFInternationalization.framework in Frameworks */,
 				89F8BC11D6F99A6017193EF018B594C5 /* MDFTextAccessibility.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD3FDD03BE4B6D0CC8BAA4E437BE7395 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7A4AC6DD9BAC93598BFCB69B5FE8B00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,16 +678,6 @@
 				6D218090B67F6A9A3E0976046C5FEC23 /* MDCKeyboardWatcher.m */,
 			);
 			name = KeyboardWatcher;
-			sourceTree = "<group>";
-		};
-		2B766977ABA4150271292316527520D7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6D18E0853E9AADBDA5E6E46BC0D40637 /* Pods-FreeMacroTracker */,
-				BDEFFCD41889E3492CE56833A596E67E /* Pods-FreeMacroTracker-FreeMacroTrackerUITests */,
-				E11140863580EBDB6B2806B5E3742939 /* Pods-FreeMacroTrackerTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		2D76566682EE64DB4568F18873BD5726 /* Support Files */ = {
@@ -774,23 +764,6 @@
 			name = Shapes;
 			sourceTree = "<group>";
 		};
-		6D18E0853E9AADBDA5E6E46BC0D40637 /* Pods-FreeMacroTracker */ = {
-			isa = PBXGroup;
-			children = (
-				FAA4B3F826A8B33E66F42A42858BA3BD /* Pods-FreeMacroTracker.modulemap */,
-				2315E298EDC1CC281FD4D923A8D42203 /* Pods-FreeMacroTracker-acknowledgements.markdown */,
-				A4A01E1679D17E912D05AF67A5D1295A /* Pods-FreeMacroTracker-acknowledgements.plist */,
-				DC956F5165AD7E59B6FA505410E4429C /* Pods-FreeMacroTracker-dummy.m */,
-				51CA6FFAC426E2E6F6E49E22E9B90754 /* Pods-FreeMacroTracker-frameworks.sh */,
-				BD3A68FC4904AC369D2135E4C3D9E72C /* Pods-FreeMacroTracker-Info.plist */,
-				0B52FC94BBB3230510EDB078E7874568 /* Pods-FreeMacroTracker-umbrella.h */,
-				0CE56042A81F96A9C44B4FF5812E6921 /* Pods-FreeMacroTracker.debug.xcconfig */,
-				A22F4DF3120B25EC7E66D5AFAB5CE62F /* Pods-FreeMacroTracker.release.xcconfig */,
-			);
-			name = "Pods-FreeMacroTracker";
-			path = "Target Support Files/Pods-FreeMacroTracker";
-			sourceTree = "<group>";
-		};
 		72F601FC4962415E5ECA493714025672 /* Color */ = {
 			isa = PBXGroup;
 			children = (
@@ -801,6 +774,19 @@
 				644B4C02741A9E8E98BF3B8DB497438C /* UIColor+MaterialDynamic.m */,
 			);
 			name = Color;
+			sourceTree = "<group>";
+		};
+		748876D71F19179EBD06D618747EDDA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
+				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
+				1B6BFBFD4C3493175B8B8217F88F5B99 /* Pods_OpenMacroTracker.framework */,
+				26058F88EF9FF40BBD67256379C0288D /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */,
+				DE00FBEE3BAD8902723E6AC95E3E37D5 /* Pods_OpenMacroTrackerTests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7CC4E9BC2ACF3BF286CE9B61FDF8DD33 /* Ripple */ = {
@@ -820,6 +806,23 @@
 				5BCA311B13429EBF34B515DCE8B33C36 /* MDCStatefulRippleView.m */,
 			);
 			name = Ripple;
+			sourceTree = "<group>";
+		};
+		90E407EB7B74B77ACEAAE87A58EEF70E /* Pods-OpenMacroTracker-OpenMacroTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B99866EC0EA2375882221FF1D56CBEB /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.modulemap */,
+				406D3520F91FADE61CDF185E2B810C38 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.markdown */,
+				2967B6F6910CD92B2495E128E8072424 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-acknowledgements.plist */,
+				8E569FB2D4E6AA5D5F1605788CFB68C1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m */,
+				27C604939524DE638CC91D48846BD04D /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks.sh */,
+				A1FABABA3163EDB9C007F09ACB893468 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-Info.plist */,
+				C8F45B0B8C4F89F88B61B27B0487C4B1 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h */,
+				6395CE2F1F87EAAA9D6AC664EF2321A5 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */,
+				E5327EB77256939F7C024FA23F000552 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-OpenMacroTracker-OpenMacroTrackerUITests";
+			path = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests";
 			sourceTree = "<group>";
 		};
 		9617A4B946A16F1253CB5FDC101F1CE2 /* Snackbar */ = {
@@ -913,6 +916,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A6F31545D5A6C91F1569E72C6D565B22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4EEE2E0C92B17E30EF9F6D82893627 /* Pods-OpenMacroTracker */,
+				90E407EB7B74B77ACEAAE87A58EEF70E /* Pods-OpenMacroTracker-OpenMacroTrackerUITests */,
+				AA19E5E5AB02235843D267F16CD58A15 /* Pods-OpenMacroTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AA19E5E5AB02235843D267F16CD58A15 /* Pods-OpenMacroTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF72597F29F7C1E8581C1B80003139B7 /* Pods-OpenMacroTrackerTests.modulemap */,
+				A4BCBBEF6B1D61EDBDB958485558F1B7 /* Pods-OpenMacroTrackerTests-acknowledgements.markdown */,
+				7B2A586174C1CC13EEC3567324FCB9B2 /* Pods-OpenMacroTrackerTests-acknowledgements.plist */,
+				0C20790E22EE3552D7FEA231927E385B /* Pods-OpenMacroTrackerTests-dummy.m */,
+				1E5150E10304C5CA3F41EC261EC61604 /* Pods-OpenMacroTrackerTests-Info.plist */,
+				A1AEA99569D3A5A4660CFF00170F451F /* Pods-OpenMacroTrackerTests-umbrella.h */,
+				D49E9288F4A781E06CCBF5AE5275C074 /* Pods-OpenMacroTrackerTests.debug.xcconfig */,
+				6CD57C5DA1EDC4BBBA24C11A01360D46 /* Pods-OpenMacroTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-OpenMacroTrackerTests";
+			path = "Target Support Files/Pods-OpenMacroTrackerTests";
+			sourceTree = "<group>";
+		};
 		AE471E8360B7B7497373FE1C30AA0D59 /* Elevation */ = {
 			isa = PBXGroup;
 			children = (
@@ -927,44 +956,14 @@
 			name = Elevation;
 			sourceTree = "<group>";
 		};
-		BDEFFCD41889E3492CE56833A596E67E /* Pods-FreeMacroTracker-FreeMacroTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				630362C165A079FF15A9B77A61F464A6 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.modulemap */,
-				027A812C2F161D6C2A82619E54644C95 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.markdown */,
-				3B0125BC8519FC3F3650E67DF144B853 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-acknowledgements.plist */,
-				92A05A30B9487B4632E5EB5A8D38CBDC /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m */,
-				EB104819E77F81A6434AA4D9E356F5F6 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks.sh */,
-				D0C2343C67916EFC234CB364162382E5 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-Info.plist */,
-				63E3DB69CDB81479A7C97E0F13A40958 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h */,
-				D1D1C7549EF1821DA08579E2A329D081 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */,
-				C1E77D15D74086E027AD720F9DBB6650 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */,
-			);
-			name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests";
-			path = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests";
-			sourceTree = "<group>";
-		};
-		CA179C00214356CECF57B7E8035F794C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
-				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
-				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
-				0081BC3E9C5E17EB035E4F2E0A0C1806 /* Pods_FreeMacroTracker.framework */,
-				E796674F9441C1DAF295ABC6A65C3BE6 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */,
-				A81F80F93E05AA047E78E6CA209FB751 /* Pods_FreeMacroTrackerTests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				432BAA2EA32CCFB977B0022DB35B657E /* Frameworks */,
 				99DA75178FFA5C3B592EB8288BDF8C4D /* Pods */,
-				CA179C00214356CECF57B7E8035F794C /* Products */,
-				2B766977ABA4150271292316527520D7 /* Targets Support Files */,
+				748876D71F19179EBD06D618747EDDA8 /* Products */,
+				A6F31545D5A6C91F1569E72C6D565B22 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1054,22 +1053,6 @@
 			name = Ink;
 			sourceTree = "<group>";
 		};
-		E11140863580EBDB6B2806B5E3742939 /* Pods-FreeMacroTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				E1B937F401F6CD41F5D52E1745FC2AE5 /* Pods-FreeMacroTrackerTests.modulemap */,
-				8234096D2676FD26EFD5E91637333A5E /* Pods-FreeMacroTrackerTests-acknowledgements.markdown */,
-				34CAF2FC49DFBC42E2272DDA84B63122 /* Pods-FreeMacroTrackerTests-acknowledgements.plist */,
-				98FA1482E831FF624A7C928727BB7D41 /* Pods-FreeMacroTrackerTests-dummy.m */,
-				26FFDE8395CF0ACC3F95EC89351E985E /* Pods-FreeMacroTrackerTests-Info.plist */,
-				2CA2D3FB926C1C97B52441DDCB4BF8F0 /* Pods-FreeMacroTrackerTests-umbrella.h */,
-				B4407F262EA15258155FFA0E7F846A19 /* Pods-FreeMacroTrackerTests.debug.xcconfig */,
-				B6C28B1A065F18FB7D7ABDBE933479A9 /* Pods-FreeMacroTrackerTests.release.xcconfig */,
-			);
-			name = "Pods-FreeMacroTrackerTests";
-			path = "Target Support Files/Pods-FreeMacroTrackerTests";
-			sourceTree = "<group>";
-		};
 		E27C2270E3154FC6C42C4B559CA8054F /* MDFTextAccessibility */ = {
 			isa = PBXGroup;
 			children = (
@@ -1094,6 +1077,23 @@
 				6B837DD985F89146657DD1A11935356E /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		EE4EEE2E0C92B17E30EF9F6D82893627 /* Pods-OpenMacroTracker */ = {
+			isa = PBXGroup;
+			children = (
+				553DA49542218BE3175193C21DBF6ACA /* Pods-OpenMacroTracker.modulemap */,
+				4809D17B03C60FD8116D02933E922C65 /* Pods-OpenMacroTracker-acknowledgements.markdown */,
+				F4D50C4D7771D3524C433C5CA65BEC7C /* Pods-OpenMacroTracker-acknowledgements.plist */,
+				C70CB422E7200544966F5B850EC4097F /* Pods-OpenMacroTracker-dummy.m */,
+				CB4C9323B45D446DA0FE5CF850B487B6 /* Pods-OpenMacroTracker-frameworks.sh */,
+				8D445F2425171B621BF172828B56E74F /* Pods-OpenMacroTracker-Info.plist */,
+				E74C188F16DC17DD246DB4CE1CF7A109 /* Pods-OpenMacroTracker-umbrella.h */,
+				51696DACDDDFC20B7F42CAAF6985C8BA /* Pods-OpenMacroTracker.debug.xcconfig */,
+				83C425D38723182BABCEAD027A0846E6 /* Pods-OpenMacroTracker.release.xcconfig */,
+			);
+			name = "Pods-OpenMacroTracker";
+			path = "Target Support Files/Pods-OpenMacroTracker";
 			sourceTree = "<group>";
 		};
 		F4AA0580B409025BA1918DC6329DA9C2 /* private */ = {
@@ -1133,6 +1133,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		4870F21259C63F8ACE9045004EDF1F86 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E1BA1A40ED09B6DC077401225DA832 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C458701F3CE343B60C05E967A2F2414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E26E4E51E56ECA10DD99A032E722F2 /* Pods-OpenMacroTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5479FCDC0AA9EB855728336DB34ABF39 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1143,22 +1159,6 @@
 				39001C11334FEAF508FCAB4F3B18490C /* MDFTextAccessibility-umbrella.h in Headers */,
 				0BD4D3E014FFD03D6D31EC5642B4D97B /* MDFTextAccessibility.h in Headers */,
 				D1A04DDDEC2F702C3767F00BB402E7A3 /* NSArray+MDFUtils.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D1D5047B4F8D06353C6AF59720A9940 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3BB75BA224F4E7CC678692238EE8179B /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74CF00F3947F7DAC2ACEA97E86477837 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				636D280D7B5D9AAAD1E1AF8804D2A0EC /* Pods-FreeMacroTracker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1176,11 +1176,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCB76C48270EF7FE175629ACF06DD09B /* Headers */ = {
+		DF23A1C5622A4C836DDF2829FC5C8843 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA5007BDA39B100D63EBC92DE835888 /* Pods-FreeMacroTrackerTests-umbrella.h in Headers */,
+				486B516AA4A0E91FB1E811D150E156DC /* Pods-OpenMacroTrackerTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1298,44 +1298,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04A4343FD63FF909B9B2CA32F9F4C153 /* Pods-FreeMacroTrackerTests */ = {
+		3A10CC267381497FA7FCEC549639A099 /* Pods-OpenMacroTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 727B499F38092F53C16E16FEFADEC9DE /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTrackerTests" */;
+			buildConfigurationList = 20EABDCDF4DE01ED75DFEC0F038BE3C7 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTracker" */;
 			buildPhases = (
-				FCB76C48270EF7FE175629ACF06DD09B /* Headers */,
-				8179FB51ED55C14B5059ACDB3F0B9E82 /* Sources */,
-				9F0880DE01789C408129DD3F0F23E1B5 /* Frameworks */,
-				79838416757945C7DB6322B5F7149F9D /* Resources */,
+				4C458701F3CE343B60C05E967A2F2414 /* Headers */,
+				91B8C7BEC46951808771E62614BFCC07 /* Sources */,
+				A1BB4CAC1E910700089351C21A3E1475 /* Frameworks */,
+				940339DD95477F9AC83C41841B7D2EC0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F5901DC398DB72108FDCB744AA70814C /* PBXTargetDependency */,
+				E5B8A1B0AEE0A7D6A23A5301BE02B575 /* PBXTargetDependency */,
+				0622EEF782E68535ECB66248A779D0CF /* PBXTargetDependency */,
+				5400C79ADDA06E1763D457884A37113C /* PBXTargetDependency */,
 			);
-			name = "Pods-FreeMacroTrackerTests";
-			productName = "Pods-FreeMacroTrackerTests";
-			productReference = A81F80F93E05AA047E78E6CA209FB751 /* Pods_FreeMacroTrackerTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		416EE97E26A6D8CF95AD55EE7A5B5951 /* Pods-FreeMacroTracker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B56F3BA83C6FA0D21A4D94FB538C7674 /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTracker" */;
-			buildPhases = (
-				74CF00F3947F7DAC2ACEA97E86477837 /* Headers */,
-				A1000BCA02CC2052771A149968BEFF3F /* Sources */,
-				FD3FDD03BE4B6D0CC8BAA4E437BE7395 /* Frameworks */,
-				6B4EC6D1FD001F19B4200A6659749F01 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3DE9B09985512B16E6E13400ED015942 /* PBXTargetDependency */,
-				431F8850A2323F3419970456C7B3831E /* PBXTargetDependency */,
-				D0735A39F5E10ED66E6D36A129500D54 /* PBXTargetDependency */,
-			);
-			name = "Pods-FreeMacroTracker";
-			productName = "Pods-FreeMacroTracker";
-			productReference = 0081BC3E9C5E17EB035E4F2E0A0C1806 /* Pods_FreeMacroTracker.framework */;
+			name = "Pods-OpenMacroTracker";
+			productName = "Pods-OpenMacroTracker";
+			productReference = 1B6BFBFD4C3493175B8B8217F88F5B99 /* Pods_OpenMacroTracker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */ = {
@@ -1357,25 +1338,44 @@
 			productReference = 9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6868FA06B75AE5292B173A8DA46381A5 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests */ = {
+		577D37D93B6FD7C36C65609570F85357 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B7A1C35059943BE1247A08919DEF880 /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTracker-FreeMacroTrackerUITests" */;
+			buildConfigurationList = 599F3719D544BCAB064713AE0D14AC21 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTracker-OpenMacroTrackerUITests" */;
 			buildPhases = (
-				6D1D5047B4F8D06353C6AF59720A9940 /* Headers */,
-				6687ED4F04742518079B1228A029813B /* Sources */,
-				32113EC9E4F1650044F1DC9C816E9BDF /* Frameworks */,
-				CEE9BD6B5314089E3C480B7CFF1FB2AD /* Resources */,
+				4870F21259C63F8ACE9045004EDF1F86 /* Headers */,
+				015AA92A97A2C2FCD8AF5AD1086A3FEE /* Sources */,
+				746239B2B463AB892DB89A4B591CCB78 /* Frameworks */,
+				EC762A4739CC1ACFA8C22C8AC0F50AAC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5088018BD7439E7172AC4BEECEBCFD1F /* PBXTargetDependency */,
-				645F2AE0E83A2D4DB0A2E2E5363ABCF5 /* PBXTargetDependency */,
-				D5A32A612B48BABEC384BF189F0FC632 /* PBXTargetDependency */,
+				BD9DE677DA77304FFCCE7FE84A3DF030 /* PBXTargetDependency */,
+				412F346149ECB56EEB96B1C6A35D5455 /* PBXTargetDependency */,
+				21F1321832F198596D2F3B4EFAF80D3D /* PBXTargetDependency */,
 			);
-			name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests";
-			productName = "Pods-FreeMacroTracker-FreeMacroTrackerUITests";
-			productReference = E796674F9441C1DAF295ABC6A65C3BE6 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */;
+			name = "Pods-OpenMacroTracker-OpenMacroTrackerUITests";
+			productName = "Pods-OpenMacroTracker-OpenMacroTrackerUITests";
+			productReference = 26058F88EF9FF40BBD67256379C0288D /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AD40D7F0C761D5049D87FECDDD5ED23 /* Pods-OpenMacroTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F665669BB2D58A89E966277E95C5564 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTrackerTests" */;
+			buildPhases = (
+				DF23A1C5622A4C836DDF2829FC5C8843 /* Headers */,
+				2EE8AF71F1140EFFCA9A420D197B7E0A /* Sources */,
+				34691E81CD2751CFDDC328C79E0EBA1F /* Frameworks */,
+				1CDC221DD0E372C0C067A415B334109F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C556F84FC98A3924687786BF9C2079 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpenMacroTrackerTests";
+			productName = "Pods-OpenMacroTrackerTests";
+			productReference = DE00FBEE3BAD8902723E6AC95E3E37D5 /* Pods_OpenMacroTrackerTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */ = {
@@ -1434,16 +1434,16 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CA179C00214356CECF57B7E8035F794C /* Products */;
+			productRefGroup = 748876D71F19179EBD06D618747EDDA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */,
 				55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */,
 				A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */,
-				416EE97E26A6D8CF95AD55EE7A5B5951 /* Pods-FreeMacroTracker */,
-				6868FA06B75AE5292B173A8DA46381A5 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests */,
-				04A4343FD63FF909B9B2CA32F9F4C153 /* Pods-FreeMacroTrackerTests */,
+				3A10CC267381497FA7FCEC549639A099 /* Pods-OpenMacroTracker */,
+				577D37D93B6FD7C36C65609570F85357 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests */,
+				8AD40D7F0C761D5049D87FECDDD5ED23 /* Pods-OpenMacroTrackerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1457,7 +1457,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B4EC6D1FD001F19B4200A6659749F01 /* Resources */ = {
+		1CDC221DD0E372C0C067A415B334109F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1471,7 +1471,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79838416757945C7DB6322B5F7149F9D /* Resources */ = {
+		940339DD95477F9AC83C41841B7D2EC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1485,7 +1485,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEE9BD6B5314089E3C480B7CFF1FB2AD /* Resources */ = {
+		EC762A4739CC1ACFA8C22C8AC0F50AAC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1495,6 +1495,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		015AA92A97A2C2FCD8AF5AD1086A3FEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ACF3877776616A4C4E5B0EB42D3EB69 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EE8AF71F1140EFFCA9A420D197B7E0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D4CFE75D9EEC1758D3F924623EAB68 /* Pods-OpenMacroTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53832DDCE73FE481BECB99750BD3D1E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1508,14 +1524,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6687ED4F04742518079B1228A029813B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7F6333641CEDB69CBD701E4787F78D0 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6FD51041BB743519FC2F3CA223381012 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1525,14 +1533,6 @@
 				F836F2E7363D3BD5A666BBDAD11E3282 /* MDFTextAccessibility-dummy.m in Sources */,
 				ADBE7923AE1C068FAA8B6EEC8096CEB1 /* MDFTextAccessibility.m in Sources */,
 				7426C6FD9F3B6978608415E672A74526 /* NSArray+MDFUtils.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8179FB51ED55C14B5059ACDB3F0B9E82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D286E384ECD69D0444963CC7DBA2536E /* Pods-FreeMacroTrackerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1604,28 +1604,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1000BCA02CC2052771A149968BEFF3F /* Sources */ = {
+		91B8C7BEC46951808771E62614BFCC07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC37FDC644CB9F0ECC8A898429DBFEF /* Pods-FreeMacroTracker-dummy.m in Sources */,
+				BB1ED0FDBC658A72F8B8A8C05C37FB83 /* Pods-OpenMacroTracker-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		02C556F84FC98A3924687786BF9C2079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-OpenMacroTracker";
+			target = 3A10CC267381497FA7FCEC549639A099 /* Pods-OpenMacroTracker */;
+			targetProxy = C3F25FD2301BA3510C229780ACC0DF07 /* PBXContainerItemProxy */;
+		};
+		0622EEF782E68535ECB66248A779D0CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MDFTextAccessibility;
+			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
+			targetProxy = 6D232BCDAF337E64BEB4A8E215DBD8B3 /* PBXContainerItemProxy */;
+		};
+		21F1321832F198596D2F3B4EFAF80D3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = 88DB21765FF4687511D96B56D7BF7193 /* PBXContainerItemProxy */;
+		};
 		3A740121A6387EEB1EE067178F0CC598 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MDFTextAccessibility;
 			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
 			targetProxy = AA3A50E1335B70773D1FD01814B64100 /* PBXContainerItemProxy */;
-		};
-		3DE9B09985512B16E6E13400ED015942 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MDFInternationalization;
-			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = 9F49A7012CD428A8D95C9B0982B6601C /* PBXContainerItemProxy */;
 		};
 		3FF8DCF2DDF763A39C90A91D6B45F937 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1633,84 +1645,33 @@
 			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
 			targetProxy = 416C6235886CD3FD4EF9139C9062A9AF /* PBXContainerItemProxy */;
 		};
-		431F8850A2323F3419970456C7B3831E /* PBXTargetDependency */ = {
+		412F346149ECB56EEB96B1C6A35D5455 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MDFTextAccessibility;
 			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
-			targetProxy = B0B726BECD1A1170612F39C1BEBB55F3 /* PBXContainerItemProxy */;
+			targetProxy = 13A05FEFE873350E8F8B467340024578 /* PBXContainerItemProxy */;
 		};
-		5088018BD7439E7172AC4BEECEBCFD1F /* PBXTargetDependency */ = {
+		5400C79ADDA06E1763D457884A37113C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialComponents;
+			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
+			targetProxy = 1F66564D8EFC3E7B58154B126C187972 /* PBXContainerItemProxy */;
+		};
+		BD9DE677DA77304FFCCE7FE84A3DF030 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MDFInternationalization;
 			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
-			targetProxy = D75B432E8951743EB8870F05C9B2BB53 /* PBXContainerItemProxy */;
+			targetProxy = D35155E61FEB4082FE40912173716E23 /* PBXContainerItemProxy */;
 		};
-		645F2AE0E83A2D4DB0A2E2E5363ABCF5 /* PBXTargetDependency */ = {
+		E5B8A1B0AEE0A7D6A23A5301BE02B575 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = MDFTextAccessibility;
-			target = A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */;
-			targetProxy = F9667B81624B2C677D509202F3DAE800 /* PBXContainerItemProxy */;
-		};
-		D0735A39F5E10ED66E6D36A129500D54 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MaterialComponents;
-			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
-			targetProxy = 3F5A22C688ECFD23CF46AC2A81B15707 /* PBXContainerItemProxy */;
-		};
-		D5A32A612B48BABEC384BF189F0FC632 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MaterialComponents;
-			target = B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */;
-			targetProxy = 4CBC7567E6EEDF08D140C69A681A28F0 /* PBXContainerItemProxy */;
-		};
-		F5901DC398DB72108FDCB744AA70814C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-FreeMacroTracker";
-			target = 416EE97E26A6D8CF95AD55EE7A5B5951 /* Pods-FreeMacroTracker */;
-			targetProxy = 9D2085636B645AB1BABF2BEAD76D743D /* PBXContainerItemProxy */;
+			name = MDFInternationalization;
+			target = 55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */;
+			targetProxy = 3C2696FFA2677FC4D6BC0F1A7D0F50B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D50C7387E95A2B360A8D9357D494A72 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1E77D15D74086E027AD720F9DBB6650 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1771,9 +1732,9 @@
 			};
 			name = Release;
 		};
-		221AD10E9DE8F0A7B4C51CF8F4DC6A8D /* Debug */ = {
+		32ED4DC931D1CE6AD02D68B9BC6431A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CE56042A81F96A9C44B4FF5812E6921 /* Pods-FreeMacroTracker.debug.xcconfig */;
+			baseConfigurationReference = 83C425D38723182BABCEAD027A0846E6 /* Pods-OpenMacroTracker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1786,7 +1747,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1795,7 +1756,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1804,10 +1765,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		45934233FC184644F72F84727AC988C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1839,44 +1801,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C56C004DA02FECA8CF5B4037956CED1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B4407F262EA15258155FFA0E7F846A19 /* Pods-FreeMacroTrackerTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1919,44 +1843,6 @@
 			};
 			name = Release;
 		};
-		790977CCD8197D294B7B22272DBFE0E4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1D1C7549EF1821DA08579E2A329D081 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		87B714C7FB90C08329693EBE937DB109 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 73307DE5E1E0D7CE3BE465B8EE11739B /* MaterialComponents.release.xcconfig */;
@@ -1994,9 +1880,9 @@
 			};
 			name = Release;
 		};
-		8FBC4E64CA30A0D712CCB5A88EB0B21D /* Release */ = {
+		965A945F1A7EC053516AB20FC561613D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6C28B1A065F18FB7D7ABDBE933479A9 /* Pods-FreeMacroTrackerTests.release.xcconfig */;
+			baseConfigurationReference = E5327EB77256939F7C024FA23F000552 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2009,7 +1895,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2018,7 +1904,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2033,9 +1919,9 @@
 			};
 			name = Release;
 		};
-		96C58F4691A808CA8AB3D6B853134908 /* Release */ = {
+		9D3D91C39D5FE7DD14E837F881E3C0DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A22F4DF3120B25EC7E66D5AFAB5CE62F /* Pods-FreeMacroTracker.release.xcconfig */;
+			baseConfigurationReference = 6CD57C5DA1EDC4BBBA24C11A01360D46 /* Pods-OpenMacroTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -2048,7 +1934,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2057,7 +1943,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -2071,6 +1957,120 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9E92D25CA122E2FD6D915AE03A45BA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49E9288F4A781E06CCBF5AE5275C074 /* Pods-OpenMacroTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB28DE9E3B12B8904D0575A8326D4C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51696DACDDDFC20B7F42CAAF6985C8BA /* Pods-OpenMacroTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECF19E2B2A14DF113393227AD00FE355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6395CE2F1F87EAAA9D6AC664EF2321A5 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2254,6 +2254,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		20EABDCDF4DE01ED75DFEC0F038BE3C7 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB28DE9E3B12B8904D0575A8326D4C12 /* Debug */,
+				32ED4DC931D1CE6AD02D68B9BC6431A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2C4532E54CCEE471FB9DE2C4C55EC31B /* Build configuration list for PBXNativeTarget "MDFInternationalization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2272,29 +2281,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		727B499F38092F53C16E16FEFADEC9DE /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTrackerTests" */ = {
+		599F3719D544BCAB064713AE0D14AC21 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTracker-OpenMacroTrackerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C56C004DA02FECA8CF5B4037956CED1 /* Debug */,
-				8FBC4E64CA30A0D712CCB5A88EB0B21D /* Release */,
+				ECF19E2B2A14DF113393227AD00FE355 /* Debug */,
+				965A945F1A7EC053516AB20FC561613D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B7A1C35059943BE1247A08919DEF880 /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTracker-FreeMacroTrackerUITests" */ = {
+		7F665669BB2D58A89E966277E95C5564 /* Build configuration list for PBXNativeTarget "Pods-OpenMacroTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				790977CCD8197D294B7B22272DBFE0E4 /* Debug */,
-				0D50C7387E95A2B360A8D9357D494A72 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B56F3BA83C6FA0D21A4D94FB538C7674 /* Build configuration list for PBXNativeTarget "Pods-FreeMacroTracker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				221AD10E9DE8F0A7B4C51CF8F4DC6A8D /* Debug */,
-				96C58F4691A808CA8AB3D6B853134908 /* Release */,
+				9E92D25CA122E2FD6D915AE03A45BA09 /* Debug */,
+				9D3D91C39D5FE7DD14E837F881E3C0DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

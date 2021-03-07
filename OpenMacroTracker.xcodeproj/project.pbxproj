@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2099196C0080992C71A9C94 /* Pods_FreeMacroTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */; };
-		BE6DF68F9DDB1E82B790A282 /* Pods_FreeMacroTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */; };
-		DFC732D640A838AD72548895 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */; };
+		5A794BFABF93DF0D8FB501CE /* Pods_OpenMacroTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE71C732DBC47A9FC0765E9D /* Pods_OpenMacroTracker.framework */; };
+		715CD60E00B7FABB3D450194 /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADAEEA59689A8BD829D89C8 /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */; };
 		E35F1ADB25337B6E008E31C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */; };
 		E35F1ADD25337B6E008E31C8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */; };
 		E35F1ADF25337B6E008E31C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1ADE25337B6E008E31C8 /* ViewController.swift */; };
@@ -20,6 +19,7 @@
 		E35F1AFD25337B6F008E31C8 /* FreeMacroTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */; };
 		E35F1B1725338DB5008E31C8 /* FMTPlatformInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */; };
 		E35F1B1C25338E91008E31C8 /* FMTIOSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */; };
+		EA7B9283082ACC87455FC6D2 /* Pods_OpenMacroTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740140ADC230A40E72093CB6 /* Pods_OpenMacroTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,13 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTracker.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
-		CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ADAEEA59689A8BD829D89C8 /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7F6E56656939D453B0FBD9 /* Pods-OpenMacroTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C190C087A6892BC4A9A2914 /* Pods-OpenMacroTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTracker.release.xcconfig"; path = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker.release.xcconfig"; sourceTree = "<group>"; };
+		44C900EBC66B483103694DE4 /* Pods-OpenMacroTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTracker.debug.xcconfig"; path = "Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		740140ADC230A40E72093CB6 /* Pods_OpenMacroTrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenMacroTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9207CDB8CD1A18DB49703401 /* Pods-OpenMacroTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-OpenMacroTrackerTests/Pods-OpenMacroTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C01A0C09A7E8FB52C8F72B6A /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C528FBB90F2A0DC35452E4A6 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E35F1AD725337B6E008E31C8 /* OpenMacroTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenMacroTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35F1ADC25337B6E008E31C8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,8 +64,7 @@
 		E35F1AFE25337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTPlatformInterface.swift; sourceTree = "<group>"; };
 		E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTIOSDelegate.swift; sourceTree = "<group>"; };
-		EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreeMacroTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-FreeMacroTrackerTests/Pods-FreeMacroTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
-		EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreeMacroTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE71C732DBC47A9FC0765E9D /* Pods_OpenMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenMacroTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2099196C0080992C71A9C94 /* Pods_FreeMacroTracker.framework in Frameworks */,
+				5A794BFABF93DF0D8FB501CE /* Pods_OpenMacroTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE6DF68F9DDB1E82B790A282 /* Pods_FreeMacroTrackerTests.framework in Frameworks */,
+				EA7B9283082ACC87455FC6D2 /* Pods_OpenMacroTrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFC732D640A838AD72548895 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework in Frameworks */,
+				715CD60E00B7FABB3D450194 /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +98,12 @@
 		106E09255277844413260E2B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */,
-				7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */,
-				062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */,
-				4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */,
-				CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */,
-				EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */,
+				44C900EBC66B483103694DE4 /* Pods-OpenMacroTracker.debug.xcconfig */,
+				3C190C087A6892BC4A9A2914 /* Pods-OpenMacroTracker.release.xcconfig */,
+				C01A0C09A7E8FB52C8F72B6A /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */,
+				C528FBB90F2A0DC35452E4A6 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */,
+				2B7F6E56656939D453B0FBD9 /* Pods-OpenMacroTrackerTests.debug.xcconfig */,
+				9207CDB8CD1A18DB49703401 /* Pods-OpenMacroTrackerTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -111,9 +111,9 @@
 		BEAE6C281056EA4DB3976AB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB0D781738E4F80A5AAED510 /* Pods_FreeMacroTracker.framework */,
-				D4A75AD1BDE77AE6BAA32D68 /* Pods_FreeMacroTracker_FreeMacroTrackerUITests.framework */,
-				610927AFE43A2110D210864E /* Pods_FreeMacroTrackerTests.framework */,
+				FE71C732DBC47A9FC0765E9D /* Pods_OpenMacroTracker.framework */,
+				1ADAEEA59689A8BD829D89C8 /* Pods_OpenMacroTracker_OpenMacroTrackerUITests.framework */,
+				740140ADC230A40E72093CB6 /* Pods_OpenMacroTrackerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,9 +121,9 @@
 		E35F1ACE25337B6E008E31C8 = {
 			isa = PBXGroup;
 			children = (
-				E35F1AD925337B6E008E31C8 /* FreeMacroTracker */,
-				E35F1AF025337B6F008E31C8 /* FreeMacroTrackerTests */,
-				E35F1AFB25337B6F008E31C8 /* FreeMacroTrackerUITests */,
+				E35F1AD925337B6E008E31C8 /* OpenMacroTracker */,
+				E35F1AF025337B6F008E31C8 /* OpenMacroTrackerTests */,
+				E35F1AFB25337B6F008E31C8 /* OpenMacroTrackerUITests */,
 				E35F1AD825337B6E008E31C8 /* Products */,
 				106E09255277844413260E2B /* Pods */,
 				BEAE6C281056EA4DB3976AB2 /* Frameworks */,
@@ -140,7 +140,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E35F1AD925337B6E008E31C8 /* FreeMacroTracker */ = {
+		E35F1AD925337B6E008E31C8 /* OpenMacroTracker */ = {
 			isa = PBXGroup;
 			children = (
 				E35F1ADA25337B6E008E31C8 /* AppDelegate.swift */,
@@ -153,25 +153,25 @@
 				E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */,
 				E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */,
 			);
-			path = FreeMacroTracker;
+			path = OpenMacroTracker;
 			sourceTree = "<group>";
 		};
-		E35F1AF025337B6F008E31C8 /* FreeMacroTrackerTests */ = {
+		E35F1AF025337B6F008E31C8 /* OpenMacroTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
 				E35F1AF125337B6F008E31C8 /* FreeMacroTrackerTests.swift */,
 				E35F1AF325337B6F008E31C8 /* Info.plist */,
 			);
-			path = FreeMacroTrackerTests;
+			path = OpenMacroTrackerTests;
 			sourceTree = "<group>";
 		};
-		E35F1AFB25337B6F008E31C8 /* FreeMacroTrackerUITests */ = {
+		E35F1AFB25337B6F008E31C8 /* OpenMacroTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */,
 				E35F1AFE25337B6F008E31C8 /* Info.plist */,
 			);
-			path = FreeMacroTrackerUITests;
+			path = OpenMacroTrackerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +320,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTracker-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OpenMacroTracker-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,15 +333,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker-FreeMacroTrackerUITests/Pods-FreeMacroTracker-FreeMacroTrackerUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker-OpenMacroTrackerUITests/Pods-OpenMacroTracker-OpenMacroTrackerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B0B3D93DBB2C7BDAF9392FAC /* [CP] Check Pods Manifest.lock */ = {
@@ -359,7 +359,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTrackerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OpenMacroTrackerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -381,7 +381,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FreeMacroTracker-FreeMacroTrackerUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-OpenMacroTracker-OpenMacroTrackerUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -394,15 +394,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreeMacroTracker/Pods-FreeMacroTracker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpenMacroTracker/Pods-OpenMacroTracker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -589,14 +589,14 @@
 		};
 		E35F1B0225337B6F008E31C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E6E2995D34BAE0C32F888C7 /* Pods-FreeMacroTracker.debug.xcconfig */;
+			baseConfigurationReference = 44C900EBC66B483103694DE4 /* Pods-OpenMacroTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "OMT - AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = R7MGM828D7;
-				INFOPLIST_FILE = FreeMacroTracker/Info.plist;
+				INFOPLIST_FILE = OpenMacroTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -612,7 +612,7 @@
 		};
 		E35F1B0325337B6F008E31C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F00D7FC110EA7CF7AE7038D /* Pods-FreeMacroTracker.release.xcconfig */;
+			baseConfigurationReference = 3C190C087A6892BC4A9A2914 /* Pods-OpenMacroTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "OMT - AppIcon";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -620,7 +620,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = R7MGM828D7;
-				INFOPLIST_FILE = FreeMacroTracker/Info.plist;
+				INFOPLIST_FILE = OpenMacroTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,7 +637,7 @@
 		};
 		E35F1B0525337B6F008E31C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA391B9430704EEF9DA45547 /* Pods-FreeMacroTrackerTests.debug.xcconfig */;
+			baseConfigurationReference = 2B7F6E56656939D453B0FBD9 /* Pods-OpenMacroTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -660,7 +660,7 @@
 		};
 		E35F1B0625337B6F008E31C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA867684AC7EA5C0FB501260 /* Pods-FreeMacroTrackerTests.release.xcconfig */;
+			baseConfigurationReference = 9207CDB8CD1A18DB49703401 /* Pods-OpenMacroTrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -683,7 +683,7 @@
 		};
 		E35F1B0825337B6F008E31C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 062B297404CAF113D9509DE7 /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.debug.xcconfig */;
+			baseConfigurationReference = C01A0C09A7E8FB52C8F72B6A /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,7 +704,7 @@
 		};
 		E35F1B0925337B6F008E31C8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E55F8834A05D0646DABC6CA /* Pods-FreeMacroTracker-FreeMacroTrackerUITests.release.xcconfig */;
+			baseConfigurationReference = C528FBB90F2A0DC35452E4A6 /* Pods-OpenMacroTracker-OpenMacroTrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

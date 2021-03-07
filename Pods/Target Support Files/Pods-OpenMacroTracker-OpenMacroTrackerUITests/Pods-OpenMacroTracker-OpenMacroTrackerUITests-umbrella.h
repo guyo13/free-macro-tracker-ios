@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_FreeMacroTrackerTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_FreeMacroTrackerTestsVersionString[];
+FOUNDATION_EXPORT double Pods_OpenMacroTracker_OpenMacroTrackerUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_OpenMacroTracker_OpenMacroTrackerUITestsVersionString[];
 

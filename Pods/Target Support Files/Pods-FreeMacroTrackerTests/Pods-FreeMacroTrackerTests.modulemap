@@ -1,6 +1,0 @@
-framework module Pods_FreeMacroTrackerTests {
-  umbrella header "Pods-FreeMacroTrackerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
