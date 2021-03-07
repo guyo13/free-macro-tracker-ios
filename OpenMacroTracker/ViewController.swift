@@ -14,9 +14,12 @@ import MobileCoreServices
 import UniformTypeIdentifiers
 import MaterialComponents.MaterialSnackbar
 
-class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTIOSDelegate, UIDocumentPickerDelegate {
+class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTIOSDelegate, UIDocumentPickerDelegate, WKURLSchemeHandler {
+
     
-    @IBOutlet var webView: WKWebView!
+    @IBOutlet var webViewContainer: UIView?
+    var webView: WKWebView?
+    let FMT_URL_SCHEME = "free-macro-tracker"
     let FMT_URL = "https://app.freemacrotracker.com"
     var snackBarOffset: UIView?
     var vSpinner : UIView?
@@ -58,31 +61,70 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     override func viewDidLoad() {
         super.viewDidLoad()
         dateFormatter.dateFormat = "yyyy-MM-dd"
+        // Configure the WebView and Platform interface
+        let webViewConfig = WKWebViewConfiguration()
         let platformInterface = FMTPlatformInterface(withDelegate: self)
-        webView!.uiDelegate = self
-        webView!.navigationDelegate = self
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTShowAlert")
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTShowAlertBar")
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTExportData")
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTImportData")
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTShowPrompt")
-        webView!.configuration.userContentController.add(platformInterface, name:"FMTFinishedLoading")
-        webView!.configuration.ignoresViewportScaleLimits = false
+        webViewConfig.userContentController.add(platformInterface, name:"FMTShowAlert")
+        webViewConfig.userContentController.add(platformInterface, name:"FMTShowAlertBar")
+        webViewConfig.userContentController.add(platformInterface, name:"FMTExportData")
+        webViewConfig.userContentController.add(platformInterface, name:"FMTImportData")
+        webViewConfig.userContentController.add(platformInterface, name:"FMTShowPrompt")
+        webViewConfig.userContentController.add(platformInterface, name:"FMTFinishedLoading")
+        webViewConfig.ignoresViewportScaleLimits = false
+        webViewConfig.setURLSchemeHandler(self, forURLScheme: self.FMT_URL_SCHEME)
+
+        let webViewContainer: UIView = self.webViewContainer!
+        let frame = webViewContainer.frame
+        let wv = WKWebView(frame: frame, configuration: webViewConfig)
+        print("frame \(frame), translatesAutoresizingMaskIntoConstraints \(wv.translatesAutoresizingMaskIntoConstraints)")
+        wv.translatesAutoresizingMaskIntoConstraints = false
+        self.webView = wv
+        wv.uiDelegate = self
+        wv.navigationDelegate = self
+        // Add webView and apply constraints
+        webViewContainer.addSubview(wv)
+        NSLayoutConstraint.activate([
+            wv.leadingAnchor.constraint(equalTo: webViewContainer.leadingAnchor),
+            wv.trailingAnchor.constraint(equalTo: webViewContainer.trailingAnchor),
+            wv.topAnchor.constraint(equalTo: webViewContainer.topAnchor),
+            wv.bottomAnchor.constraint(equalTo: webViewContainer.bottomAnchor)
+        ])
         // Cache policy for developing
-//        initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
+        //  initialNavRequest = self.webView.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
+
         // Default Cache policy for production
-        initialNavRequest = webView!.load(URLRequest(url: URL(string: FMT_URL)!))
+        initialNavRequest = wv.load(URLRequest(url: URL(string: FMT_URL)!))
+
+        // Show spinner until page loaded and the WebApp fires finish event
         showSpinner()
+
+        print("Webview frame \(wv.frame)")
+        print("View frame \(view.frame)")
     }
-    
+
     override func loadView() {
         super.loadView()
     }
-    
+
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         if navigation == self.initialNavRequest {
             print("Initial navigation request finished")
         }
+    }
+
+    // WKURLSchemeHandler Protocol methods
+    func webView(_ webView: WKWebView, start urlSchemeTask: WKURLSchemeTask) {
+        //TODO
+        print("Start URL Scheme task for: \(urlSchemeTask.request.url?.absoluteString ?? "")")
+        let data = "<html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"><meta charset=\"utf-8\"><meta name=\"theme-color\" content=\"#2a763b\"><meta name=\"msapplication-navbutton-color\" content=\"#2a763b\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name = \"viewport\" content = \"width = device-width\"></head><body scroll=\"no\">Hello World</body></html>".data(using: String.Encoding.utf8)
+        urlSchemeTask.didReceive(URLResponse(url: urlSchemeTask.request.url!, mimeType: "text/html", expectedContentLength: data!.count, textEncodingName: "utf-8"))
+        urlSchemeTask.didReceive(data!)
+        urlSchemeTask.didFinish()
+        self.FMTFinishedLoading()
+    }
+    
+    func webView(_ webView: WKWebView, stop urlSchemeTask: WKURLSchemeTask) {
+        urlSchemeTask.didFinish()
     }
     
     @objc func alertClose(_ gesture: UITapGestureRecognizer) {
@@ -250,7 +292,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
         if (self.fmtAppLoaded) {
             // Check if App state today value is same day as now
             // If not then update it
-            self.webView.evaluateJavaScript("( () => {" +
+            self.webView!.evaluateJavaScript("( () => {" +
                 "const today = fmtAppInstance.today;" +
                 "return `${today.getFullYear()}-${today.getMonth() + 1 }-${today.getDate()}`;" +
                 "} )();") { (result: Any?, err: Error?) in
@@ -273,7 +315,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
                         if (shouldUpdate) {
                             DispatchQueue.main.async {
                                 print("Updating Today")
-                                self.webView.evaluateJavaScript("( () => { FMTOverviewLoadCurrentDay(); } )();") {
+                                self.webView!.evaluateJavaScript("( () => { FMTOverviewLoadCurrentDay(); } )();") {
                                     res, err in
                                     if err != nil {
                                         print("Failed updating today!")
