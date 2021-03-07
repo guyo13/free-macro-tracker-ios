@@ -19,8 +19,12 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     
     @IBOutlet var webViewContainer: UIView?
     var webView: WKWebView?
+    var webAppBundle: Bundle?
+    var navigationDelegate: NavigationDelegate?
+    let WEB_APP_BUNDLE_ID = "com.freemacrotracker.app.WebApp"
     let FMT_URL_SCHEME = "free-macro-tracker"
-    let FMT_URL = "https://app.freemacrotracker.com"
+    let FMT_URL = "free-macro-tracker://app.freemacrotracker.com"
+    let FMT_FALLBACK_URL = "https://app.freemacrotracker.com"
     var snackBarOffset: UIView?
     var vSpinner : UIView?
     let utilQueue = DispatchQueue(label: "com.freemacrotracker.app.util", qos: .utility)
@@ -61,6 +65,17 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
     override func viewDidLoad() {
         super.viewDidLoad()
         dateFormatter.dateFormat = "yyyy-MM-dd"
+        var urlToLoad: URL = URL(string: self.FMT_URL)!
+        // Load WebApp Bundle or fallback to loading from the web
+        let bundleURL = Bundle.main.url(forResource: "WebApp", withExtension: "bundle")
+        self.webAppBundle = Bundle(url: bundleURL!)
+        if (self.webAppBundle == nil) {
+            // If bundle failed to load, fallback to https
+            urlToLoad = changeURLScheme(url: urlToLoad, newScheme: "https") ?? URL(string: self.FMT_FALLBACK_URL)!
+            print("WebApp Bundle failed loading, falling back to \(urlToLoad.absoluteString)")
+        } else {
+            self.navigationDelegate = AssetNavigationDelegate(bundle: self.webAppBundle, baseUrl: urlToLoad)
+        }
         // Configure the WebView and Platform interface
         let webViewConfig = WKWebViewConfiguration()
         let platformInterface = FMTPlatformInterface(withDelegate: self)
@@ -89,11 +104,12 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
             wv.topAnchor.constraint(equalTo: webViewContainer.topAnchor),
             wv.bottomAnchor.constraint(equalTo: webViewContainer.bottomAnchor)
         ])
+        
         // Cache policy for developing
-        //  initialNavRequest = self.webView.load(URLRequest(url: URL(string: FMT_URL)!, cachePolicy: .reloadIgnoringLocalCacheData))
+        //  initialNavRequest = self.webView.load(URLRequest(url: urlToLoad, cachePolicy: .reloadIgnoringLocalCacheData))
 
         // Default Cache policy for production
-        initialNavRequest = wv.load(URLRequest(url: URL(string: FMT_URL)!))
+        initialNavRequest = wv.load(URLRequest(url: urlToLoad))
 
         // Show spinner until page loaded and the WebApp fires finish event
         showSpinner()
@@ -114,13 +130,14 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
 
     // WKURLSchemeHandler Protocol methods
     func webView(_ webView: WKWebView, start urlSchemeTask: WKURLSchemeTask) {
-        //TODO
         print("Start URL Scheme task for: \(urlSchemeTask.request.url?.absoluteString ?? "")")
-        let data = "<html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no\"><meta charset=\"utf-8\"><meta name=\"theme-color\" content=\"#2a763b\"><meta name=\"msapplication-navbutton-color\" content=\"#2a763b\"><meta name=\"apple-mobile-web-app-capable\" content=\"yes\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name = \"viewport\" content = \"width = device-width\"></head><body scroll=\"no\">Hello World</body></html>".data(using: String.Encoding.utf8)
-        urlSchemeTask.didReceive(URLResponse(url: urlSchemeTask.request.url!, mimeType: "text/html", expectedContentLength: data!.count, textEncodingName: "utf-8"))
-        urlSchemeTask.didReceive(data!)
-        urlSchemeTask.didFinish()
-        self.FMTFinishedLoading()
+        guard let navigationDelegate = self.navigationDelegate else {
+            print("Null Navigation Delegate, canno't fulfill request for URL: \(urlSchemeTask.request.url?.absoluteString ?? "")")
+            urlSchemeTask.didFailWithError(NSError(domain: "SchemeHandler", code: 668, userInfo: nil))
+            return;
+        }
+        // Load the data using the navigation delegate
+        navigationDelegate.navigate(webView, start: urlSchemeTask)
     }
     
     func webView(_ webView: WKWebView, stop urlSchemeTask: WKURLSchemeTask) {

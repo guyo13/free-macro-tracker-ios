@@ -19,6 +19,12 @@
 		E35F1AFD25337B6F008E31C8 /* FreeMacroTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1AFC25337B6F008E31C8 /* FreeMacroTrackerUITests.swift */; };
 		E35F1B1725338DB5008E31C8 /* FMTPlatformInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */; };
 		E35F1B1C25338E91008E31C8 /* FMTIOSDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */; };
+		E3A99AE125F52F1B0068E468 /* AssetNavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A99AE025F52F1B0068E468 /* AssetNavigationDelegate.swift */; };
+		E3A99AE725F52FC10068E468 /* NavigationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A99AE625F52FC10068E468 /* NavigationDelegate.swift */; };
+		E3A99AED25F534780068E468 /* MimeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A99AEC25F534780068E468 /* MimeType.swift */; };
+		E3E0B12C25F521F8001CD11C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E0B12B25F521F8001CD11C /* Utils.swift */; };
+		E3E0B13D25F52895001CD11C /* WebappAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3E0B13C25F52895001CD11C /* WebappAssets.xcassets */; };
+		E3E0B14225F528C0001CD11C /* WebApp.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3E0B13225F5287E001CD11C /* WebApp.bundle */; };
 		EA7B9283082ACC87455FC6D2 /* Pods_OpenMacroTrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740140ADC230A40E72093CB6 /* Pods_OpenMacroTrackerTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +42,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = E35F1AD625337B6E008E31C8;
 			remoteInfo = FreeMacroTracker;
+		};
+		E3A99AD025F52A890068E468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E35F1ACF25337B6E008E31C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3E0B13125F5287E001CD11C;
+			remoteInfo = WebApp;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -64,6 +77,13 @@
 		E35F1AFE25337B6F008E31C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTPlatformInterface.swift; sourceTree = "<group>"; };
 		E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMTIOSDelegate.swift; sourceTree = "<group>"; };
+		E3A99AE025F52F1B0068E468 /* AssetNavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetNavigationDelegate.swift; sourceTree = "<group>"; };
+		E3A99AE625F52FC10068E468 /* NavigationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDelegate.swift; sourceTree = "<group>"; };
+		E3A99AEC25F534780068E468 /* MimeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MimeType.swift; sourceTree = "<group>"; };
+		E3E0B12B25F521F8001CD11C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E3E0B13225F5287E001CD11C /* WebApp.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebApp.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E0B13425F5287E001CD11C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3E0B13C25F52895001CD11C /* WebappAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WebappAssets.xcassets; sourceTree = "<group>"; };
 		FE71C732DBC47A9FC0765E9D /* Pods_OpenMacroTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenMacroTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -124,6 +144,7 @@
 				E35F1AD925337B6E008E31C8 /* OpenMacroTracker */,
 				E35F1AF025337B6F008E31C8 /* OpenMacroTrackerTests */,
 				E35F1AFB25337B6F008E31C8 /* OpenMacroTrackerUITests */,
+				E3E0B13325F5287E001CD11C /* WebApp */,
 				E35F1AD825337B6E008E31C8 /* Products */,
 				106E09255277844413260E2B /* Pods */,
 				BEAE6C281056EA4DB3976AB2 /* Frameworks */,
@@ -136,6 +157,7 @@
 				E35F1AD725337B6E008E31C8 /* OpenMacroTracker.app */,
 				E35F1AED25337B6F008E31C8 /* OpenMacroTrackerTests.xctest */,
 				E35F1AF825337B6F008E31C8 /* OpenMacroTrackerUITests.xctest */,
+				E3E0B13225F5287E001CD11C /* WebApp.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +174,10 @@
 				E35F1AE825337B6F008E31C8 /* Info.plist */,
 				E35F1B1625338DB5008E31C8 /* FMTPlatformInterface.swift */,
 				E35F1B1B25338E91008E31C8 /* FMTIOSDelegate.swift */,
+				E3E0B12B25F521F8001CD11C /* Utils.swift */,
+				E3A99AE025F52F1B0068E468 /* AssetNavigationDelegate.swift */,
+				E3A99AE625F52FC10068E468 /* NavigationDelegate.swift */,
+				E3A99AEC25F534780068E468 /* MimeType.swift */,
 			);
 			path = OpenMacroTracker;
 			sourceTree = "<group>";
@@ -174,6 +200,15 @@
 			path = OpenMacroTrackerUITests;
 			sourceTree = "<group>";
 		};
+		E3E0B13325F5287E001CD11C /* WebApp */ = {
+			isa = PBXGroup;
+			children = (
+				E3E0B13425F5287E001CD11C /* Info.plist */,
+				E3E0B13C25F52895001CD11C /* WebappAssets.xcassets */,
+			);
+			path = WebApp;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -190,6 +225,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				E3A99AD125F52A890068E468 /* PBXTargetDependency */,
 			);
 			name = OpenMacroTracker;
 			productName = FreeMacroTracker;
@@ -235,6 +271,21 @@
 			productReference = E35F1AF825337B6F008E31C8 /* OpenMacroTrackerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		E3E0B13125F5287E001CD11C /* WebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3E0B13525F5287E001CD11C /* Build configuration list for PBXNativeTarget "WebApp" */;
+			buildPhases = (
+				E3E0B13025F5287E001CD11C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebApp;
+			productName = WebApp;
+			productReference = E3E0B13225F5287E001CD11C /* WebApp.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -255,6 +306,9 @@
 						CreatedOnToolsVersion = 12.0.1;
 						TestTargetID = E35F1AD625337B6E008E31C8;
 					};
+					E3E0B13125F5287E001CD11C = {
+						CreatedOnToolsVersion = 12.4;
+					};
 				};
 			};
 			buildConfigurationList = E35F1AD225337B6E008E31C8 /* Build configuration list for PBXProject "OpenMacroTracker" */;
@@ -273,6 +327,7 @@
 				E35F1AD625337B6E008E31C8 /* OpenMacroTracker */,
 				E35F1AEC25337B6F008E31C8 /* OpenMacroTrackerTests */,
 				E35F1AF725337B6F008E31C8 /* OpenMacroTrackerUITests */,
+				E3E0B13125F5287E001CD11C /* WebApp */,
 			);
 		};
 /* End PBXProject section */
@@ -282,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3E0B14225F528C0001CD11C /* WebApp.bundle in Resources */,
 				E35F1AE725337B6F008E31C8 /* LaunchScreen.storyboard in Resources */,
 				E35F1AE425337B6F008E31C8 /* Assets.xcassets in Resources */,
 				E35F1AE225337B6E008E31C8 /* Main.storyboard in Resources */,
@@ -299,6 +355,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E0B13025F5287E001CD11C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3E0B13D25F52895001CD11C /* WebappAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +481,10 @@
 				E35F1B1725338DB5008E31C8 /* FMTPlatformInterface.swift in Sources */,
 				E35F1ADD25337B6E008E31C8 /* SceneDelegate.swift in Sources */,
 				E35F1B1C25338E91008E31C8 /* FMTIOSDelegate.swift in Sources */,
+				E3A99AED25F534780068E468 /* MimeType.swift in Sources */,
+				E3A99AE125F52F1B0068E468 /* AssetNavigationDelegate.swift in Sources */,
+				E3A99AE725F52FC10068E468 /* NavigationDelegate.swift in Sources */,
+				E3E0B12C25F521F8001CD11C /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +516,11 @@
 			isa = PBXTargetDependency;
 			target = E35F1AD625337B6E008E31C8 /* OpenMacroTracker */;
 			targetProxy = E35F1AF925337B6F008E31C8 /* PBXContainerItemProxy */;
+		};
+		E3A99AD125F52A890068E468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3E0B13125F5287E001CD11C /* WebApp */;
+			targetProxy = E3A99AD025F52A890068E468 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -723,6 +796,40 @@
 			};
 			name = Release;
 		};
+		E3E0B13625F5287E001CD11C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = WebApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.app.WebApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E3E0B13725F5287E001CD11C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = R7MGM828D7;
+				INFOPLIST_FILE = WebApp/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freemacrotracker.app.WebApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -758,6 +865,15 @@
 			buildConfigurations = (
 				E35F1B0825337B6F008E31C8 /* Debug */,
 				E35F1B0925337B6F008E31C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3E0B13525F5287E001CD11C /* Build configuration list for PBXNativeTarget "WebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3E0B13625F5287E001CD11C /* Debug */,
+				E3E0B13725F5287E001CD11C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
