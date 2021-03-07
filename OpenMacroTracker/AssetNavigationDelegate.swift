@@ -73,7 +73,6 @@ class AssetNavigationDelegate: NavigationDelegate {
         }
         mimeType = mimeTypes[fileExt] ?? DEFAULT_MIME_TYPE
         if (data != nil) {
-            print("newurl \(newUrl.absoluteString)")
             urlSchemeTask.didReceive(URLResponse(url: newUrl, mimeType: mimeType, expectedContentLength: data!.count, textEncodingName: "utf-8"))
             urlSchemeTask.didReceive(data!)
             urlSchemeTask.didFinish()

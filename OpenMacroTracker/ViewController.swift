@@ -105,17 +105,11 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate, FMTI
             wv.bottomAnchor.constraint(equalTo: webViewContainer.bottomAnchor)
         ])
         
-        // Cache policy for developing
-        //  initialNavRequest = self.webView.load(URLRequest(url: urlToLoad, cachePolicy: .reloadIgnoringLocalCacheData))
-
-        // Default Cache policy for production
-        initialNavRequest = wv.load(URLRequest(url: urlToLoad))
+        // Load page
+        initialNavRequest = self.webView!.load(URLRequest(url: urlToLoad, cachePolicy: .reloadIgnoringLocalCacheData))
 
         // Show spinner until page loaded and the WebApp fires finish event
         showSpinner()
-
-        print("Webview frame \(wv.frame)")
-        print("View frame \(view.frame)")
     }
 
     override func loadView() {
